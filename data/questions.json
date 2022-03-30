@@ -1,0 +1,924 @@
+{
+    "question": [
+        {
+            "id": 1,
+            "name": "d0",
+            "notes": "The agency or department typically responsible for handling the issue"
+        },
+        {
+            "id": 2,
+            "name": "d1",
+            "notes": "The incident type"
+        }
+    ],
+    "question_version": [
+        {
+            "id": 1,
+            "question_id": 1,
+            "version_major": 1,
+            "version_minor": 0,
+            "version_patch": 0,
+            "notes": ""
+        },
+        {
+            "id": 2,
+            "question_id": 2,
+            "version_major": 1,
+            "version_minor": 0,
+            "version_patch": 0,
+            "notes": ""
+        }
+    ],
+    "label": [
+        {
+            "question_version_id": 1,
+            "name": "Power",
+            "definition": ""
+        },
+        {
+            "question_version_id": 1,
+            "name": "Streets",
+            "definition": ""
+        },
+        {
+            "question_version_id": 1,
+            "name": "Sewer",
+            "definition": ""
+        },
+        {
+            "question_version_id": 1,
+            "name": "Code Enforcement",
+            "definition": ""
+        },
+        {
+            "question_version_id": 1,
+            "name": "Fleet",
+            "definition": ""
+        },
+        {
+            "question_version_id": 1,
+            "name": "Health",
+            "definition": ""
+        },
+        {
+            "question_version_id": 1,
+            "name": "Questions",
+            "definition": ""
+        },
+        {
+            "question_version_id": 1,
+            "name": "Solid Waste",
+            "definition": ""
+        },
+        {
+            "question_version_id": 1,
+            "name": "Hazmat",
+            "definition": ""
+        },
+        {
+            "question_version_id": 1,
+            "name": "Courts",
+            "definition": ""
+        },
+        {
+            "question_version_id": 1,
+            "name": "Defer",
+            "definition": ""
+        },
+        {
+            "question_version_id": 1,
+            "name": "Gas",
+            "definition": ""
+        },
+        {
+            "question_version_id": 1,
+            "name": "Water",
+            "definition": ""
+        },
+        {
+            "question_version_id": 1,
+            "name": "Traffic",
+            "definition": ""
+        },
+        {
+            "question_version_id": 1,
+            "name": "Stormwater",
+            "definition": ""
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Interruption",
+            "definition": "Description whose central theme is around a lack of the power service for any reason other than lack of bill payment"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Turn On Request",
+            "definition": "Description whose central theme is around a request to reinstate the power asset service after a period when it has been off by request"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Power Asset Issue",
+            "definition": "Description whose central theme is around usability (with the exception of an outage), damage or displacement of a power asset other than a power meter, a power line or a transformer"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Shutoff Request",
+            "definition": "Description whose central theme is around a citizen requesting temporary or permanent discontinuation of the power asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Transformer Issue",
+            "definition": "Description whose central theme is around problems with power transformers"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Complaint",
+            "definition": "Description whose central theme is around work having been done on the power asset that was either unsatisfactory, incomplete, or caused other damage to the either the power asset or another asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Wires",
+            "definition": "Description whose central theme is around hazards posed by exposed or displaced wires"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Meter Issue",
+            "definition": "Description whose central theme is around usability, damage or displacement of a power (electric) meter"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Request",
+            "definition": "Description whose central theme is around work a citizen is asking the city to perform that related to the power asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Disconnected",
+            "definition": "Description whose central theme is around a lack of power service for reasons related to bill payment or lack thereof"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Question",
+            "definition": "Description whose central theme is around citizens requesting information about the streets asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Walkway Complaint",
+            "definition": "Description whose central theme is around issues with the curb and sidewalk system"
+        },
+        {
+            "question_version_id": 2,
+            "name": "FYI",
+            "definition": "Description whose central theme is the report of seemingly meaningless information that isn't actionable for the city in real-time, as it relates to streets"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Metal Plate Complaint",
+            "definition": "Description whose central theme is around issues with metal plates that have been placed in the street to smooth surfaces or block holes"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Pothole",
+            "definition": "Description whose central theme is around the loss of integrity of the streets system which has resulted in holes"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Street Sweeping",
+            "definition": "Description whose central theme is around street sweeping. Can include anything from complaints to requests"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Crash Barrier Request",
+            "definition": "Description whose central theme is around requests for repair or placement of guardrails, pylons, water barrels or other crash barriers"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Street Complaint",
+            "definition": "Description whose central theme is around reports of problems with the integrity or structure of the street system. While there is a specific Pothole label pair, anything that is referencing a large number of potholes that are weakening the overall integrity of the road fall into this label pair. "
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Request",
+            "definition": "Description whose central theme is around work a citizen is asking the city to perform that related to the streets asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Delineators",
+            "definition": "Description whose central theme is around objects whose purpose is to identify and/or block certain locations, paths or other objects"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Complaint",
+            "definition": "Description whose central theme is around work that has been done on the streets asset that was either unsatisfactory, incomplete or caused other damage to either the streets asset or another asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Crash Barrier Complaint",
+            "definition": "Description whose central theme is around damage to or complaints about guardrails, pylons, water barrels or other crash barriers"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Painting",
+            "definition": "Descriptions whose central theme is related to painting that needs to be done for roads or for painting that was done but either was incorrectly done or not fully completed. "
+        },
+        {
+            "question_version_id": 2,
+            "name": "Snow and Ice",
+            "definition": "Description whose central theme is around snow or ice conditions in the street system"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Sewer Blockage",
+            "definition": "Description whose central theme is around lack of drainage or overflowing that is specific to the sewer asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Manhole Complaint",
+            "definition": "Description whose central theme is around any issues with manholes with the exception of damage that is identifiable as a Cave-In at the manhole site"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Complaint",
+            "definition": "Description whose central theme is around work having been done on the sewer asset that was either unsatisfactory, incomplete, or caused other damage to either the sewer asset or another asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Septic Tank Issue",
+            "definition": "Description whose central theme is around problems with a septic tanks system"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Odor Complaint",
+            "definition": "Description whose central theme is around citizens reporting smells that are indicative of issues with the sewer asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Pump Issue",
+            "definition": "Description whose central theme is around issues with the sewer pumps"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Request",
+            "definition": "Description whose central theme is around work a citizen is asking the city to perform that related to the sewer asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Administration",
+            "definition": "Description whose central theme is around requiring some sort of help or consultation with a particular individual. Other broad categorization of \"administrative help\" fall into this label pair as well. All should be related to the sewer assert"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Alarm",
+            "definition": "Descriptions whose central theme is around an alarm of some sort going off."
+        },
+        {
+            "question_version_id": 2,
+            "name": "Question",
+            "definition": "Description whose central theme is around citizens requesting information about the sewer asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Pump Station Issue",
+            "definition": "Description whose central theme is around problems with or failure of the sewer pump station"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Animal Violation",
+            "definition": "Description whose central theme is around violations of leash laws, noise ordinances, or welfare rights regarding animals"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Illegal Dumping",
+            "definition": "Description whose central theme is related to dumping garbage waste where it does not belong"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Estate Complaint",
+            "definition": "Description whose central theme is related to complaints about personal property conditions, typically that are violating building codes or property regulations."
+        },
+        {
+            "question_version_id": 2,
+            "name": "Noise Violation",
+            "definition": "Description whose central theme is related to either extremely loud, disruptive noise or noise that is occurring during regulated hours"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Permits",
+            "definition": "Description whose central theme is around either calling to request a permit to complete some form of construction or building project.Examples"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Abandoned Vehicle",
+            "definition": "Description whose central theme is related to vehicles (of any sort) that have been abandoned for a prolonged amount of time in a public location"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Construction Complaint",
+            "definition": "Description whose central theme is around damage or disturbance to citizens caused by explicit construction and/or land development projects. Projects can be performed by industrial, personal, or municipality actors"
+        },
+        {
+            "question_version_id": 2,
+            "name": "ROW Violation",
+            "definition": "Description whose central theme is around blockage of or improper usage of the right-of-way"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Parking Violation",
+            "definition": "Description whose central theme is around vehicles in areas that are not designated for parking or vehicles that have been ticketed for parking in such areas with citizens calling to contest"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Question",
+            "definition": "Description whose central theme is around citizens calling in to question anything about code enforcement in general, specifically in cases where the question is mimicking a report of a violation or the perception of a violation"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Complaint",
+            "definition": "Description whose central theme is around complaints about code enforcement staff performing their duties"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Painting Violation",
+            "definition": "Description whose central theme is related to painting structures or areas that should not be painted"
+        },
+        {
+            "question_version_id": 2,
+            "name": "ADA Compliance",
+            "definition": "Description whose central theme is around violations to lack of compliance with the Americans with Disabilities Act (ADA)"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Health Complaint",
+            "definition": "Description whose central theme is centered around code violations that could result in physical or mental harm to the citizen or other citizens"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Social Distancing Violation",
+            "definition": "Description whose central theme is related to violations of the social distancing mandate for Covid-19"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Zoning Violation",
+            "definition": "Description whose central theme is around any improper use of land or buildings in a municipality"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Vehicle Maintenance",
+            "definition": "Description whose central theme is around city vehicles requiring maintenance"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Vaccinations",
+            "definition": "Description whose central theme is around the topic of vaccination information"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Social Distancing Violation",
+            "definition": "Description whose central theme is around companies or individuals not complying with COVID-19 measures"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Chemical Discharge",
+            "definition": "Description whose central theme is around chemicals being dumped or leaking from solid waste collection trucks in some location but without mention of the chemicals making their way into the drainage system. "
+        },
+        {
+            "question_version_id": 2,
+            "name": "Request Canceled",
+            "definition": "Descriptions whose central theme is around canceling a request for trash pickup"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Collection Request",
+            "definition": "Description whose central theme is a new request for citizen-generated garbage to be picked up. Requests that include complaints about a previously missed trash collection are excluded here"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Missed Collection",
+            "definition": "Description whose central theme is around trash pickup not being completed"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Question",
+            "definition": "Description whose central theme is around citizens requesting information about the waste collection asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Container Complaint",
+            "definition": "Description whose central theme is around problems with or requests for trash or recycling receptacles"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Complaint",
+            "definition": "Description whose central theme is around waste collection or work having been done during waste collection that was either unsatisfactory, incomplete, or caused other damage to the containers or another asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Chemical Discharge",
+            "definition": "Description whose central theme is around chemicals being dumped or leaking in some location but WITHOUT mention of the chemicals making their way into the drainage system. This excludes cases of chemicals leaking from solid waste collection trucks"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Bodily Fluids",
+            "definition": "Description whose central theme is around the occurrence of human or animal bodily fluids in public places"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Chemical Disposal",
+            "definition": "Description whose central theme is around citizens who want information on responsible disposal of their chemical waste"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Sharps",
+            "definition": "Description whose central theme is around the observance of medical waste in the form of hypodermic needles in public places"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Odor Complaint",
+            "definition": "Description whose central theme is around citizens reporting smells that are indicative of issues that would require hazmat response. "
+        },
+        {
+            "question_version_id": 2,
+            "name": "Chemical Complaint",
+            "definition": "Description whose central theme is around harmful chemicals in locations where they do not belong but that are not leaking into the environment"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Question",
+            "definition": "Description whose central theme is around questions about court proceedings"
+        },
+        {
+            "question_version_id": 2,
+            "name": "FYI",
+            "definition": "Description whose central theme is the report of seemingly meaningless information that isn't actionable for the city in real time"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Complaint",
+            "definition": "Description whose central theme is around work done by the city that was unsatisfactory in some manner and that is not explicitly related to another city asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Emergency Barricade",
+            "definition": "Description whose central theme is around the need for a barricade immediately in order to prevent harm or damage"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Unusable Description",
+            "definition": "Description without any clear central theme that aligns with an actionable label pair"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Request Canceled",
+            "definition": "Description whose central theme is related to the cancellation of a report that was previously given or a request that was previously made"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Retrieval Request",
+            "definition": "Description whose central theme is around a situation where an item was lost in a municipality system and the caller is in need of the city to assist in acquiring it "
+        },
+        {
+            "question_version_id": 2,
+            "name": "Fence Complaint",
+            "definition": "Description whose central theme is around complaints about fence integrity, absence, or maintenance on property owned by the municipality"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Wires",
+            "definition": "Description whose central theme is around hazards posed by exposed or displaced wires"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Erosion",
+            "definition": "Description whose central theme is around the washing away or absence of topsoil or a similar material due to causes other than weather patterns"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Tree Request",
+            "definition": "Description whose central theme is around requests for service related to trees other than removal of a fallen tree or service to a tree than is tangled in wires"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Banner Complaint",
+            "definition": "Description whose central theme is around some sort of hanging decoration or banner, typically that has fallen in the road or is in violation of permissions."
+        },
+        {
+            "question_version_id": 2,
+            "name": "Question",
+            "definition": "Description whose central theme is around miscellaneous questions that do not fit well into other asset question label pairs as they are written"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Alarm",
+            "definition": "Descriptions whose central theme is around an alarm of some sort going off. "
+        },
+        {
+            "question_version_id": 2,
+            "name": "IT Request",
+            "definition": "Description whose central theme is around requesting some technical service or addition of a webpage or features to an existing webpage or app. Typically reported by city staff or citizens interacting with the city's website"
+        },
+        {
+            "question_version_id": 2,
+            "name": "IT Issue",
+            "definition": "Description whose central theme is around problems with technical systems, typically reported by city staff or citizens interacting with city websites"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Landslide",
+            "definition": "Description whose central theme is around the movement of large amounts of substrate material in locations where it should not be"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Downed Tree",
+            "definition": "Description whose central theme is around a tree that has fallen and is obstructing normal activity or posing a threat"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Dead Animal",
+            "definition": "Description whose central theme is around a dead animal that needs to be picked up"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Downed Pole",
+            "definition": "Description whose central theme is around notification of poles that have/are falling but that do not have additional descriptors that characterize the identity of the pole type"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Maintenance Request",
+            "definition": "Description whose central theme is around the upkeep of common city-systems or facilities. These are typically reported by city employees"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Accident Cleanup",
+            "definition": "Description whose central theme is around clearing the wreckage resulting from a vehicle accident"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Debris Complaint",
+            "definition": "Description whose central theme is around reporting and/or requesting clean up for trash or miscellaneous debris in locations where it does not belong"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Parking Meter Issue",
+            "definition": "Description whose central theme is around problems with municipality parking meters"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Access Request",
+            "definition": "Description whose central theme is around either being locked out of a location or locked in"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Container Complaint",
+            "definition": "Description whose central theme is around complaints about neglected garbage containers in public places or the need for placement of these containers"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Administration",
+            "definition": "Description whose central theme is around requiring some sort of help or consultation with a particular individual. Other broad categorization of \"administrative help\" fall into this label pair as well"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Streetlight Complaint",
+            "definition": "Description whose central theme is around outages or issues with streetlights, other than the streetlight falling"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Building Structural Integrity",
+            "definition": "Description whose central theme is around citizen concerns for the structural integrity of a building"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Tree Complaint",
+            "definition": "Description whose central theme is around issues with a tree other than if the tree has fallen or the tree is causing a hazard in conjunction with wires"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Animal Complaint",
+            "definition": "Description whose central theme is around the nuisance posed by and/or well-being of stray animals (not necessarily animals types that are typically kept as pets)"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Labor Request",
+            "definition": "Description whose central theme is around requesting city employees to complete some task that is not related to the maintenance of city systems"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Pests",
+            "definition": "Description whose central theme is related to insects and/or rodent infestations, reports, or complaints. These are typically reported in the context of city facilities"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Irrigation Issue",
+            "definition": "Description whose central theme is around irrigation systems such as sprinklers. Typically regarding the system leaking or causing damage to other assets."
+        },
+        {
+            "question_version_id": 2,
+            "name": "System Test",
+            "definition": "Description whose explicit purpose is to test the system"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Request",
+            "definition": "Description whose central theme is around work a citizen is asking the municipality to perform on municipality infrastructure that is not related to the maintenance of existing systems and that is not explicitly related to another municipality asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Board Up",
+            "definition": "Description whose central theme is around requiring boarding up of a property or portion of a property due to either damage or dereliction"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Police",
+            "definition": "Description whose central theme is related to situations that would most likely require police intervention"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Illicit Discharge",
+            "definition": "Description whose central theme is around the leaking or dumping of substances into the water or drainage systems of a city"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Barricade Request",
+            "definition": "Description whose central theme is around the requirement of barricade installment or removal"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Easement Maintenance",
+            "definition": "Description whose central theme is around landscaping that needs to be completed on public property"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Flooding",
+            "definition": "Description whose central theme is around cases of large amounts of water gathering in a location that cannot be directly traced back to weather related causes or the Water asset at the location"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Graffiti",
+            "definition": "Description whose central theme is around defacement of public property, typically with paint."
+        },
+        {
+            "question_version_id": 2,
+            "name": "Scooters",
+            "definition": "Description whose central theme is around the public scooter system in a city"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Homeless Encampment",
+            "definition": "Description whose central theme is around the congregation of homeless individuals in a particular location for a prolonged period of time"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Tree in Wires",
+            "definition": "Description whose central theme is around reports of trees posing a potential threat due to interaction with wires or power lines"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Odor Complaint",
+            "definition": "Description whose central theme is around citizens reporting smells that cannot be assigned as Gas, Hazmat, Stormwater, Sewer or Water issues."
+        },
+        {
+            "question_version_id": 2,
+            "name": "Billing",
+            "definition": "Description whose central theme is around incorrect billing for an asset, billing questions, or bill payment."
+        },
+        {
+            "question_version_id": 2,
+            "name": "Utility Locate",
+            "definition": "Description whose central theme is around requesting a service to help find the utility locations in an area in order to perform construction or maintenance to an asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Disconnected",
+            "definition": "Description whose central theme is around a lack of gas service for reasons related to bill payment or lack thereof"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Turn On Request",
+            "definition": "Description whose central theme is around a request to reinstate the gas asset service after a period when it has been off by request"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Complaint",
+            "definition": "Description whose central theme is around work having been done on the gas asset that was either unsatisfactory, incomplete, or caused other damage to the either the gas asset or another asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Question",
+            "definition": "Description whose central theme is around citizens requesting information about the gas asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Shutoff Request",
+            "definition": "Description whose central theme is around a citizen requesting temporary or permanent discontinuation of the gas asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Gas Asset Issue",
+            "definition": "Description whose central theme is around problems with a specific gas asset other than a leak, a service interruption, or a request to turn the gas off"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Interruption",
+            "definition": "Description whose central theme is around a gas outage where the citizen does not have service for any reason other than a billing issue"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Gas Leak",
+            "definition": "Description whose central theme is around leaking of gas"
+        },
+        {
+            "question_version_id": 2,
+            "name": "High Pressure",
+            "definition": "Description whose central theme is around the pressure in the water system being above typical levels"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Meter Issue",
+            "definition": "Description whose central theme is around water asset issues occurring at the water meter"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Low Pressure",
+            "definition": "Description whose central theme is around the pressure in the water system being below typical levels"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Frozen Pipes",
+            "definition": "Description whose central theme is around issues with frozen pipes"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Question",
+            "definition": "Description whose central theme is around citizens requesting information about the water asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Fire Hydrant Issue",
+            "definition": "Description whose central theme is around water leaking from a fire hydrant"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Disconnected",
+            "definition": "Description whose central theme is around a lack of water service for reasons related to bill payment or lack thereof"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Water Leaking",
+            "definition": "Description whose central theme is around leaking of the water asset, typically inside the home or business"
+        },
+        {
+            "question_version_id": 2,
+            "name": "High Usage",
+            "definition": "Description whose central theme is around instances where a citizen's water usage is far above normal levels"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Turn On Request",
+            "definition": "Description whose central theme is around a request to reinstate the water asset service after a period when it has been off by request"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Complaint",
+            "definition": "Description whose central theme is around work having been done on the water asset that was either unsatisfactory, incomplete, or caused other damage to either the water asset or another asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Water Asset Issue",
+            "definition": "Description whose central theme is around usability (with the exception of an outage) of, damage to or displacement of a water asset other than a water meter"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Request",
+            "definition": "Description whose central theme is around work a citizen is asking the city to perform that related to the water asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Frozen Meter",
+            "definition": "Description whose central theme is around issues with frozen meters"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Odor Complaint",
+            "definition": "Description whose central theme is around citizens reporting smells that are indicative of issues with the water asset or at the location of a water asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Interruption",
+            "definition": "Description whose central theme is around a lack of the water service for any reason other than lack of bill payment"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Water Waste",
+            "definition": "Description whose central theme is around violation of water shortage regulations"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Water Quality",
+            "definition": "Description whose central theme is around the quality of water including reports of odor, color, taste and sediment content"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Shutoff Request",
+            "definition": "Description whose central theme is around a citizen requesting temporary or permanent discontinuation of the water asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Complaint",
+            "definition": "Description whose central theme is around work related to traffic that was either unsatisfactory, incomplete, or caused other damage to the asset or another asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Downed Streetlight",
+            "definition": "Description whose central theme is around streetlights that have fallen down. Object must be identifiable as a streetlight to fall into this category; explicit identification or strong contextual queues are preferred"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Signal Complaint",
+            "definition": "Description whose central theme is around issues with traffic lights and other traffic signaling objects such as pedestrian crosswalk lights"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Streetlight Request",
+            "definition": "Description whose central theme is around the request for lighting in a new location"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Sign Complaint",
+            "definition": "Description whose central theme is around problems with some sort of signage "
+        },
+        {
+            "question_version_id": 2,
+            "name": "Sign Request",
+            "definition": "Description whose central theme is around requests for some sort of signage that do not require a traffic study to determine the necessity of the sign"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Traffic Study",
+            "definition": "Description whose central theme is around observations about the current environment and flow of traffic in a location. Typically these are cases that will require the city to come out and make an observation of the environment before taking action to resolve the issue. "
+        },
+        {
+            "question_version_id": 2,
+            "name": "Question",
+            "definition": "Description whose central theme is around citizens requesting information about traffic"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Request",
+            "definition": "Description whose central theme is around work a citizen is asking the city to perform that related to the stormwater asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Drain Complaint",
+            "definition": "Description whose central theme is around problems with drains in a public place that do not include immediate blockage"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Ditch Complaint",
+            "definition": "Descriptions whose central theme is around citizens calling in with complaints about ditches. "
+        },
+        {
+            "question_version_id": 2,
+            "name": "Erosion",
+            "definition": "Description whose central theme is around the washing away or absence of topsoil or a similar material due to weather patterns and the stormwater systems"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Flooding",
+            "definition": "Description whose central theme is around cases of large amounts of water gathering in a location that can be directly traced back to weather-related causes"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Odor Complaint",
+            "definition": "Description whose central theme is around citizens reporting smells that are indicative of issues with the stormwater asset or at the location of a stormwater asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Question",
+            "definition": "Description whose central theme is around citizens requesting information about the stormwater asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Drainage Violation",
+            "definition": "Description whose central theme is around water draining onto the citizen's property or another referenced property due to the actions of another party or improper infrastructure"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Sump Pump Issue",
+            "definition": "Description whose central theme is around issues with sump pumps themselves"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Drain Blockage",
+            "definition": "Description whose central theme is around a lack of proper drainage in a public place that is related to the stormwater systems"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Service Complaint",
+            "definition": "Description whose central theme is around work having been done on the stormwater asset that was either unsatisfactory, incomplete, or caused other damage to either the stormwater asset or another asset"
+        },
+        {
+            "question_version_id": 2,
+            "name": "Manhole Complaint",
+            "definition": "Description whose central theme is around issues with manholes associated with the stormwater systems. Excludes sewer related manholes"
+        }
+    ]
+}

@@ -1,0 +1,190 @@
+D1: Gas Asset Issue
+Definition
+Description whose central theme is around problems with a specific gas asset other than a leak, a service interruption, or a request to turn the gas off
+
+Clarifications
+Gas assets include but are not limited to the gas lines, gas pipes and gas covers
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Possible gas line appears hit by something, twisted up and distorted piping on the right of way, three houses southwest of 2207 Vivion; please check and notify the utility concerned."
+
+More difficult to classify
+
+"There is a main gas line under the ivy and a fence is collapsing on top of it could cause gas leak!!! In alley behind 4066 43rd street between Polk and university."
+
+Commonly Confused With
+Gas|Gas Leak
+
+D1: Gas Leak
+Definition
+Description whose central theme is around leaking of gas
+
+Clarifications
+These descriptions are also accompanied by reports of odors or sounds. 
+
+A "rotten egg" smell is associated with gas leaking
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen is claiming there is a gas leak with an odor "
+
+More difficult to classify
+
+"I can see and hear the gas leak but there's no smell. "
+
+Commonly Confused With
+Gas|Gas Asset Issue
+
+D1: Question
+Definition
+Description whose central theme is around citizens requesting information about the gas asset
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"She wants to know who does she need to have come out and inspect her gas line to have her gas turned on."
+
+More difficult to classify
+
+No example to date
+
+Commonly Confused With
+No known confusions as of yet
+
+D1: Service Complaint
+Definition
+Description whose central theme is around work having been done on the gas asset that was either unsatisfactory, incomplete, or caused other damage to the either the gas asset or another asset
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen is reporting Spire has been working on gas lines in the street on Summit for the past 10 weeks. States cuts were made in the street and all but one have been repaired. Cut is in front of this address, citizen would like to makek sure Spire is aware they need to fill in the cut."
+
+Rationale for label:
+
+This description references damage to the street but the damage can be traced back to problems that occurred during a repair of the gas asset in the area so this is labeled as a Gas|Service Complaint
+
+More difficult to classify
+
+"ENTERGY RAN A NEW GAS LINE IN FRONT OF OUR HOUSE AND NEVER REPAIRED THE SIDEWALK IN TWO PLACES."
+
+Rationale for label:
+
+This description references damage to the sidewalk but the damage can be traced back to problems that occurred during a repair of the gas asset in the area so this is labeled as a Gas|Service Complaint
+
+Commonly Confused With
+All other Service Complaint D1 label pairs depending on context of description or anchor words
+
+D1: Service Disconnected
+Definition
+Description whose central theme is around a lack of gas service for reasons related to bill payment or lack thereof
+
+Clarifications
+Requests for water turn on service that cannot be attributed to a previous request to turn the gas off are included in this label
+
+Requests for gas turn on service to a new residence are included in this label
+
+Apparent reason for the lack of service is important for this label
+
+If the lack of gas is referred to in the context of a billing issue and the gas outage is affecting a single residence then the best label pair is most likely Gas|Service Disconnected.
+
+If the lack of gas is NOT referred to in the context of a billing issue or if the gas outage appears to be affecting many citizens then the best label pair is most likely Gas|Service Interruption.
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+None as of yet
+
+More difficult to classify
+
+No as if yet
+
+Commonly Confused With
+Gas|Service Interruption
+
+Defer|Billing
+
+D1: Service Interruption
+Definition
+Description whose central theme is around a gas outage where the citizen does not have service for any reason other than a billing issue
+
+Clarifications
+Apparent reason for the lack of service is important for this label
+
+If the lack of power is referred to in the context of a billing issue and the power outage is affecting a single residence then the best label pair is most likely Gas|Service Disconnected. 
+
+If the lack of power is NOT referred to in the context of a billing issue or if the power outage appears to be affecting many citizens then the best label pair is most likely Gas|Service Interruption. 
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Caller states an interruption in their gas service is preventing them from cooking and cleaning."
+
+More difficult to classify
+
+"Caller reports the gas heater in their home is not producing heated air, only cold. "
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Shutoff Request
+Definition
+Description whose central theme is around a citizen requesting temporary or permanent discontinuation of the gas asset
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"I need a temporary gas shut off at Urban Cafe, we are getting a new oven range installed on Monday."
+
+More difficult to classify
+
+No examples to date
+
+Commonly Confused With
+No know confusions at this time
+
+D1: Turn On Request
+Definition
+Description whose central theme is around a request to reinstate the gas asset service after a period when it has been off by request
+
+Clarifications
+The reason for the gas being off is important for this label
+
+If the gas is off because the citizen previously asked for it to be turned off then the best label pair is most likely Gas|Turn On Request
+
+If the gas is off for another reason and the citizen is asking for it to be turned back on then the best label pair is most likely one of the following: Gas|Service Interruption or Gas|Service Disconnected
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+None as of yet
+
+More difficult to classify
+
+None as of yet
+
+Commonly Confused With
+Gas|Service Disconnected
+
+Gas|Water Leaking
+
+ 

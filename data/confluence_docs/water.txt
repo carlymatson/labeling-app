@@ -1,0 +1,497 @@
+D1: Fire Hydrant Issue
+Definition
+Description whose central theme is around water leaking from a fire hydrant
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen stated there is a stream of water coming out of the hydrant in front of this property. Citizen stated that the water is clear and odorless."
+
+More difficult to classify
+
+"Leaking fire highdrant"
+
+Commonly Confused With
+Water|Water Leaking
+
+D1: Flooding (LABEL NO LONGER IN USE)
+Definition
+Description whose central theme is around cases of large amounts of water gathering in a location that can be directly traced back to the water asset at that location
+
+Clarifications
+Source is important for this label
+
+If the source of the flooding can be traced back to weather-related causes then the best label pair is most likely Stormwater|Flooding
+
+If the source of the flooding can be traced back to a water asset explicitly then the best label pair is most likely Water|Flooding
+
+If the source of the flooding is not clearly specified then the best label pair is most likely Defer|Flooding
+
+Location is important for this label
+
+If the water build-up is occurring outdoors then the best label is most likely any asset|Flooding
+
+If the water build-up is occurring indoors then the best label pair is most likely one of either Water|Water Leaking or Sewer|Sewer Blockage depending on additional context in the sentence
+
+Notes
+In the future, an additional model will be built to localize these flooding instances further
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+No examples as of yet
+
+More difficult to classify
+
+No examples as of yet
+
+Commonly Confused With
+Stormwater|Flooding
+
+Defer|Flooding
+
+*|Erosion
+
+Water|Water Leaking
+
+D1: Frozen Meter
+Definition
+Description whose central theme is around issues with frozen meters
+
+Clarifications
+Instances of frozen pipes are excluded from this label and should be labeled as Water|Frozen Pipes
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+None as of yet
+
+More difficult to classify
+
+None as of yet
+
+Commonly Confused With
+Water|Frozen Pipes
+
+Water|Meter Issue
+
+D1: Frozen Pipes
+Definition
+Description whose central theme is around issues with frozen pipes
+
+Clarifications
+Instances of frozen meters are excluded from this label and should be labeled as Water|Frozen Meter
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Trying to get pipes unthawed, nothing is working.  Trying to do laundry, son is coming home from hospital and he needs water.  House smells bc toilet can't flush.  Everything she needs to cook needs water. "
+
+More difficult to classify
+
+"The caller is a maintenance person with a tenant who has frozen pipes behind the water meter and needs our tech to come out to un thaw these pipes tonight. Please call him back."
+
+Rationale for label:
+
+This description is a bit more difficult since it also references the water meter but it does specify that the pipes are frozen behind the water meter so we label this as Frozen Pipes
+
+Commonly Confused With
+Water|Service Interruption
+
+D1: High Pressure
+Definition
+Description whose central theme is around the pressure in the water system being above typical levels
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Caller says their pipes are hammering because of the high pressure water"
+
+More difficult to classify
+
+"The caller stated her water pressure is at 90 and should be at 80. If her call could be returned to assist."
+
+Rationale for label:
+
+This description is a bit tricky because it does not specifically say that the water pressure is high but it does give numeric values in the description that allow us to see that the pressure is high so we label it as such
+
+Commonly Confused With
+Water|Low Pressure
+
+D1: High Usage
+Definition
+Description whose central theme is around instances where a citizen's water usage is far above normal levels
+
+Clarficiations
+Often these descriptions will reference a potential leak. In cases such as these, if the leak is not explicitly occurring then the best label pair is Water|High Usage
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen is requesting for a water servicer to check the meter at this property for a possible leak. Citizen states that she has a high water bill usage."
+
+More difficult to classify
+
+"I WAS INSTRUCTED BY BATON ROUGE WATER COMPANY TO HAVE YOU ALL COME OUT AND TEST MY WATER METER AT 3705 CANYONLAND DRIVE, BATON ROUGE, LA 70814. MY WATER USAGE IS 6XS THE AMOUNT THAT IS USUALLY USED MONTHLY AND THE HOUSE HAS BEEN EMPTY SINCE AUGUST 13,2016 BECAUSE OF THE FLOOD."
+
+Commonly Confused With
+Defer|Billing
+
+Water|Water Leaking
+
+D1: Low Pressure
+Definition
+Description whose central theme is around the pressure in the water system being below typical levels
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen is reporting low water pressure in the entire home. Someone will be home."
+
+More difficult to classify
+
+"The caller states the water on the first floor is working on low stream but none of the sinks upstair or showers are working."
+
+Rationale for label:
+
+This description does not explicitly reference a low-pressure problem. It does however indicate that there is an issue with access to water upstairs in the dwelling and that the stream on the first floor is low. From this, we can deduce that this is a low-pressure problem and label it as such
+
+Commonly Confused With
+Water|High Pressure
+
+Water|Service Interruption
+
+D1: Meter Issue
+Definition
+Description whose central theme is around water asset issues occurring at the water meter
+
+Clarifications
+This can easily get confused with Water|Water Leaking in instances where the meter itself is leaking
+
+Location of the leak is important here
+
+If the leak is happening at the meter then the best label pair is most likely Water|Meter Issues
+
+If the leak is happening at a location other than the meter then the best label pair is most likely Water|Water Leaking or another Water|* label pair
+
+Instances of frozen water meters are not included here and should be labeled as Water|Frozen Meter
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen is reporting a water meter leak in the yard and water is running down the street."
+
+More difficult to classify
+
+"Citizen stated there is a possible leak at the meter at this property. Citizen states that her bill is 4 times higher than usual. Citizen would like the meter checked"
+
+Commonly Confused With
+Water|Water Leaking
+
+D1: Odor Complaint
+Definition
+Description whose central theme is around citizens reporting smells that are indicative of issues with the water asset or at the location of a water asset
+
+Clarifications
+These can be tricky because the odor may be related to something else but if it is at the location of the water asset it will be labeled Water|Odor Complaint
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+None as of yet
+
+More difficult to classify
+
+None as of yet
+
+Commonly Confused With
+Any other Odor Complaint D1 depending on context and anchor words
+
+D1: Question
+Definition
+Description whose central theme is around citizens requesting information about the water asset
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The caller would like more information about why the water is turned off in his area."
+
+More difficult to classify
+
+"He needs to know if there is still a boil water advisory for this building"
+
+Commonly Confused With
+All other Question D1 label pairs depending on context and anchor words
+
+D1: Service Complaint
+Definition
+Description whose central theme is around work having been done on the water asset that was either unsatisfactory, incomplete, or caused other damage to either the water asset or another asset
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The caller states that our WSD came out to fix water line break there was a big crevice or uneven ground in the front of the home. The citizen states that they also fix a new cap cover. The caller states it was not initially done properly and it needs to get fixed soon."
+
+More difficult to classify
+
+"Citizen is calling to say new water meter pits that were installed recently is situated in a way so that the dirt/mud runs off into the pit and is burying the pit and making it hard to locate it visually unless someone knows exactly where it is. States they recently installed the meters 2 weeks ago and will soon be putting down new sod/grass over the pit."
+
+Commonly Confused With
+All other Service Complaint D1 label pairs depending on context and anchor words
+
+D1: Service Disconnected
+Definition
+Description whose central theme is around a lack of water service for reasons related to bill payment or lack thereof
+
+Clarifications
+Requests for water turn on service that cannot be attributed to a previous request to turn the water off are included in this label
+
+Requests for water turn on service to a new residence are included in this label
+
+Apparent reason for the lack of service is important for this label
+
+If the lack of water is referred to in the context of a billing issue and the water outage is affecting a single residence then the best label pair is most likely Water|Service Disconnected. 
+
+If the lack of water is NOT referred to in the context of a billing issue or if the water outage appears to be affecting many citizens then the best label pair is most likely Water|Service Interruption. 
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The caller said he has paid his water bill, caller said no one came to turn on the water, caller said he has an infant that needs water to make formula"
+
+Rationale for label:
+
+This description references a lack of water service in the context of a bill
+
+More difficult to classify
+
+"The caller does not have any water and is unsure why. The water meter is locked and is blank. It has been 2 days."
+
+Rationale for label:
+
+This description is a bit trickier since it also mentions a water meter but does not explicitly reference billing. Luckily we have a clue: when a water meter is locked, service has been intentionally turned off. Due to this, we are able to label it as Service Disconnected
+
+Commonly Confused With
+Water|Service Interruption
+
+Water|Billing
+
+D1: Service Interruption
+Definition
+Description whose central theme is around a lack of the water service for any reason other than lack of bill payment
+
+Clarifications
+Apparent reason for the lack of service is important for this label
+
+If the lack of water is referred to in the context of a billing issue and the water outage is affecting a single residence then the best label pair is most likely Water|Service Disconnected. 
+
+If the lack of water is NOT referred to in the context of a billing issue or if the water outage appears to be affecting many citizens then the best label pair is most likely Water|Service Interruption. 
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The caller said the whole building has no water. Please call back to advise as soon as possible.."
+
+Rationale for label:
+
+The description references an outage that is affecting an entire building
+
+More difficult to classify
+
+"The caller stated that the main water line broke and she is unable to turn on her water due to no water pressure."
+
+Rationale for label:
+
+This description is tricker since it mentions no water pressure in addition to an outage. Since the outage is the more pressing problem overall and it appears that the outage is not related to billing, we select to label this as Service Interruption
+
+Commonly Confused With
+Water|Service Disconnected
+
+D1: Service Request
+Definition
+Description whose central theme is around work a citizen is asking the city to perform that related to the water asset
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The caller is calling to have fire hydrant installed."
+
+More difficult to classify
+
+"The caller would like to be scheduled to be add to water hook up calendar."
+
+Commonly Confused With
+All other Service Request D1 label pairs depending on context and anchor words
+
+D1: Shutoff Request
+Definition
+Description whose central theme is around a citizen requesting temporary or permanent discontinuation of the water asset
+
+Clarifications
+This can easily be confused with Water|Water Leaking in cases where the request for turn off is due to a water leak
+
+If a leak is mentioned in the description and there is already a clear plan to remediate a leak or someone is on the premises to begin remediation then the best label pair is most likely Water|Shutoff Request
+
+If a leak is mentioned in the description and there is no indication that there is a remediation plan for the leak then the best label pair is most likely Water|Water Leaking
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Needs water turned off at 1005 S Plum St"
+
+More difficult to classify
+
+"The citizen is needing the water shut off to perform repairs inside the house. A technician has been out today to shut the water for repairs, but there is still water flowing to the property. The citizen states this is the fourth time for the request and the water continues to flow. The citizen has a plumber coming tomorrow morning and wants the water shut off in the AM, or as soon as possible."
+
+Commonly Confused With
+Water|Water Leaking
+
+Water|Service Disconnected
+
+D1: Turn On Request
+Definition
+Description whose central theme is around a request to reinstate the water asset service after a period when it has been off by request
+
+Clarifications
+The reason for the power being off is important for this label
+
+If the water is off because the citizen previously asked for it to be turned off then the best label pair is most likely Water|Turn On Request
+
+If the water is off for another reason and the citizen is asking for it to be turned back on then the best label pair is most likely one of the following: Water|Service Interruption or Water|Service Disconnected
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Contractor is calling to request the water be turned back on at 5906 Grand Ave. as the repairs have been completed."
+
+Rationale for label:
+
+This description is not explicitly saying that the water was purposefully turned off in the past but since it is a contractor making the request, there is enough clear context for us to label this as Water|Turn Of Request
+
+More difficult to classify
+
+"The caller called to close her water today and she now she is requesting to open it up."
+
+Rationale for label:
+
+This description is a little trickier only because of the wording the caller uses. The terms "close" and "open" sound more related to a billing account than a water service but since we are unable to make that decision explicitly we label this as Water|Turn On Request
+
+Commonly Confused With
+Water|Service Disconnected
+
+Water|Water Leaking
+
+D1: Water Asset Issue
+Definition
+Description whose central theme is around usability (with the exception of an outage) of, damage to or displacement of a water asset other than a water meter
+
+Clarifications
+Water assets can include but are not limited to valves, water pits, water vaults and pipes
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Caller stated that the water valve seems to be broken."
+
+More difficult to classify
+
+"The water vault was ran over by Line Maintenance pipeline truck upheaveled the vault, citizen is requesting it to be repaired."
+
+Commonly Confused With
+Water|Water Leaking
+
+D1: Water Leaking
+Definition
+Description whose central theme is around leaking of the water asset, typically inside the home or business
+
+Clarifications
+This label excludes instance of leaking that are occurring specifically at the water meter
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The caller states water is coming from the street in her home, and is not certain if something has ruptured underground or not."
+
+More difficult to classify
+
+"Citizen is reporting a water leak in the street.  It appears to start south of address, 3920 Myrtle and goes further South to 40th.  It is causing a depression in the street. It is described as a steady leak, with no obvious source. Water is described as clear with no odor."
+
+Commonly Confused With
+Water|Meter Issue
+
+Sewer|Sewer Blockage
+
+D1: Water Quality
+Definition
+Description whose central theme is around the quality of water including reports of odor, color, taste and sediment content
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen is reporting while she was brushing her teeth the water turned very brown. It took about 10-15 seconds before clearing up. She stated that when she makes cool-aid the water has a funny taste as well. She would like her water to be tested."
+
+More difficult to classify
+
+"The caller stated that he is calling because the water is burning his and his wifes eyes. He believes that there is to much stuff in the water, and he is also having to clean all 3 of his toilets every 2 days because there is black ring forming in the toilet."
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Water Waste
+Definition
+Description whose central theme is around violation of water shortage regulations
+
+Clarifications
+This can be difficult to recognize since not all locations enforce water shortage restrictions
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"CUST CALLED TO REPORT THIS BUSINESS IS WATERING BUSHES OUTSIDE THE RESTRICTED HOURS. SHE SAID THE BUSINESS USED TO BE CALLED RAILROAD VIDEO BUT NOW ITSCALLED FRISKY BUSINESS."
+
+More difficult to classify
+
+"CALLER STATES THAT IT IS A NEW HOUSING DEVELOPMENT & THEY WERE WATERING THE LAWN. HUGE RETAINING WALL. THEY DIDNT KNOW THE NAME OF THE DEVELOPMENT."
+
+Commonly Confused With
+No known confusions at this time

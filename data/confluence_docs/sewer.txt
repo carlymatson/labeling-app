@@ -1,0 +1,330 @@
+D1: Administration
+Definition
+Description whose central theme is around requiring some sort of help or consultation with a particular individual. Other broad categorization of "administrative help" fall into this label pair as well. All should be related to the sewer assert
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+No examples to date
+
+More difficult to classify
+
+""Citizen calling regarding a postcard she received regarding smart sewer in her area. The number given is disconnected. She'd like a return call."
+
+Rationale for label:
+
+This description references a citizen calling for information but who does not actually ask a question. She also asks for a return call. 
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Alarm
+Definition
+Descriptions whose central theme is around an alarm of some sort going off.
+
+Clarifications
+Alarm source is very important for this label.
+
+If the source of the alarm is ambiguous then it should be labeled Defer|Alarm
+
+If the source of the alarm if clearly associated with the sewer asset then the best label is most likely Sewer|Alarm unless additional contextual information is available
+
+If the source of an alarm can be directly attributed to a different particular asset then it should be labeled at the D0 level according to the associated asset
+
+Notes
+In the future, an additional model will be built to localize these alarms further
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+None as of yet
+
+More difficult to classify
+
+None as of yet
+
+Commonly Confused With
+Any other D1 Alarm
+
+D1: Cave-In
+Definition
+Description whose central theme is around large holes forming in various locations as it relates to the sewer asset
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"THERE IS A SIZE ABLE HOLE UNDER AND ON THE SIDE OF OUR DRIVEWAY. DPW CAME AND SMOKE TESTED THE SEWER AND SMOKE CAME FROM THE DRIVEWAY INDICATING THAT IT WAS AN ISSUE WITH THE SEWER LINE. BOTH NEIGHBORS ON EITHER SIDE OF US HAVE HAD REPAIRS MADE TO THEIR PROPERTIES, BUT OUR ISSUE REMAINS UNCORRECTED. THE HOLE CONTINUES TO GET BIGGER AND IS A HAZARD.
+
+Rationale for label:
+
+This description clearly indicates that the cave-in is linked to the sewer system
+
+More difficult to classify
+
+"Sewer area in road has deep depressions that stretch from front from of house down to Ely road. Road is horrible and deeps in several places causing car to drag."
+
+Rationale for label:
+
+This description does not indicate as clearly that the actual cave-in is due to the sewer but it does indicate that the cave-in is in the sewer area which makes the sewer relationship likely
+
+Commonly Confused With
+Defer|Cave-In
+
+Stormwater|Cave-In
+
+Streets|Pothole
+
+Sewer|Manhole Complaint
+
+D1: Manhole Complaint
+Definition
+Description whose central theme is around any issues with manholes with the exception of damage that is identifiable as a Cave-In at the manhole site
+
+Clarifications
+Manhole complaints can include but are not limited to: missing manhole covers, manhole covers that have been displaced, lose manhole covers, and manholes that are sinking and forming potholes.
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"sunken area around a manhole"
+
+Rationale for label:
+
+This description references a manhole that is sinking 
+
+More difficult to classify
+
+"KCPD ADVISE THAT A MAIN HOLE HAS BEEN REMOVED AND IS SITTING IN THE MIDDLE OF THE STREET. "
+
+Rationale for label:
+
+This description is a bit more difficult to classify since main hole (manhole) is misspelled but it does still reference a displace manhole cover clearly enough for us to label it as such
+
+Commonly Confused With
+Sewer|Cave-In
+
+Streets|Pothole
+
+D1: Odor Complaint
+Definition
+Description whose central theme is around citizens reporting smells that are indicative of issues with the sewer asset
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen called to report the Pied Creek Pump Station located at 6615 NW Eastside Drive KCMO 64152. Citizen reported a strong sewer smell for the last 3 weeks, but it got worst yesterday, you can't seat outside due to the strong smell in the surrounding neighborhoods from this water plant."
+
+Rationale for label:
+
+This description clearly references a strong sewer smell that has been disrupting the citizen for a longer period of time
+
+More difficult to classify
+
+"Caller is reporting strong sew gas smell inside of her home."
+
+Rationale for label:
+
+This description is a bit more difficult due to abbreviated spelling "sew gas" rather than "sewer gas" but it is still clear enough for us to label this as such
+
+Commonly Confused With
+Water|Odor Complaint
+
+D1: Pump Issue
+Definition
+Description whose central theme is around issues with the sewer pumps
+
+Clarifications
+Pumps can include any sewer type pump including but not limited to grinder pumps or generalized pumps
+
+This label excludes pump issues that are occurring at a pump station. 
+
+This label excludes issues with sump pumps. These issues should be labeled Stormwater|Sump Pump Issue.
+
+Location is important for this label:
+
+If the pump issue is occurring at a pump station then the best label pair is most likely Sewer|Pump Station Issue
+
+If the pump issue is occurring anywhere other than a pump station or if the location of the issue is ambiguous then the best label pair is most likely Sewer|Pump Issue
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Please call. Grinder Pump is overflowing into the back yard. Seeping into crawl space."
+
+Raionale for label:
+
+This description clearly references the grinder pump that a citizen is having issues with. It does not mention a pump station
+
+More difficult to classify
+
+"The grinder pump went out."
+
+Rationale for label:
+
+This description is a bit ambiguous but still reference a grinder pump directly so we label it as such
+
+Commonly Confused With
+Sewer|Pump Station Issue
+
+Stormwater|Sump Pump Issue
+
+D1: Pump Station Issue
+Definition
+Description whose central theme is around problems with or failure of the sewer pump station
+
+Clarifications
+Location is important for this label:
+
+If the pump issue is occurring at a pump station then the best label pair is most likely Sewer|Pump Station Issue
+
+If the pump issue is occurring anywhere other than a pump station or if the location of the issue is ambiguous then the best label pair is most likely Sewer|Pump Issue
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"OVERFLOW OUTSIDE OF THE PUMP STATION"
+
+Rationale for label:
+
+This description specifically mentions a problem at a pump station
+
+More difficult to classify
+
+"CALLER STATED STATION IS DOWN & SEWAGE IS OVERFLOWING"
+
+Rationale for label:
+
+This description does not clearly state this the station is a pump stations but we can tell for context in the sentence, specifically the reference to sewage, that this is a pump station issue
+
+Commonly Confused With
+Sewer|Pump Issue
+
+D1: Question
+Definition
+Description whose central theme is around citizens requesting information about the sewer asset
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen is currently on septic at this location which also includes the lot at 2021 NE Vivion Rd, and is requesting information in regards to the process required to hook up to the City sewer line."
+
+More difficult to classify
+
+"Citizen is calling to report that the owners of this residence are selling their home and have a sewer line that is cracked and would like to know if repairs can be made up to the City sewerline."
+
+Commonly Confused With
+All other Question D1 label pairs depending on context and anchor words
+
+D1: Septic Tank Issue
+Definition
+Description whose central theme is around problems with a septic tanks system
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Caller's septic system is really smelly. Something must be wrong with it"
+
+Rationale for label:
+
+This description clearly references a septic tank (system) issue
+
+More difficult to classify
+
+"Caller states the tree in their back yard is growing into their tank. It smells really bad and they need someone from the city to help"
+
+Rationale for label:
+
+This description is a bit more difficult because it does not explicitly reference a septic tank or septic system but from the context, we can tell this is a septic tank issue. The reference to smell at a tank location is indicative of a septic tank issue and problems with tree roots growing into the septic system are fairly common.
+
+Commonly Confused With
+Sewer|Sewer Blockage
+
+D1: Service Complaint
+Definition
+Description whose central theme is around work having been done on the sewer asset that was either unsatisfactory, incomplete, or caused other damage to either the sewer asset or another asset
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Caller is reporting two street cuts in the street at this location. Per records there is a sewer repair pending in this area. Caller states that going West there are not signs informing of the hole. Caller hit the road and damaged his tires. As of now there are not plates."
+
+Rationale for label:
+
+This description mainly discusses road issue but the reason there are road issues is because of pending work on the sewer line which is why we label this as a Sewer|Service Complaint issue
+
+More difficult to classify
+
+"Citizen states the north side of the street was not cleaned of debris after the city did sewer work. They came and cleaned up the west side but now the rain has caused the whole street to be full of debris again. "
+
+Rationale for label:
+
+This description references issues with debris pretty heavily but these issues stem from work that was done on the sewer system that left the area with unsatisfactory conditions
+
+Commonly Confused With
+All other Service Complaint D1 labels depending on context or anchor words
+
+D1: Service Request
+Definition
+Description whose central theme is around work a citizen is asking the city to perform that related to the sewer asset
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The caller is calling to add a new sewer line."
+
+More difficult to classify
+
+"Citizen is requesting for a wastewater supervisor to come out and cap off a sewer line. He also wants to make sure that he has the approval from the city to do so. Citizen is an employee of KC Plumber Pro."
+
+Commonly Confused With
+All other Service Request D1 labels depending on context or anchor words
+
+D1: Sewer Blockage
+Definition
+Description whose central theme is around lack of drainage or overflowing that is specific to the sewer asset
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Sewage is coming up around the base of the commode."
+
+Rationale for label:
+
+This description mentions sewage that is coming up into the home from the toilet. This typically only occurs when there is some blockage in the sewage system.
+
+More difficult to classify
+
+"RAINS LAST WEEK CAUSED ANOTHER SEWERAGE OVERFLOW AND LEFT TWO CAPS OPEN. THE REPEATED OVERFLOWS ARE ERODING THE SOIL. THE STENCH OF RAW SEWERAGE IS PREVALENT IN OUR OFFICE COMPLEX PARKING AREAS."
+
+Rationale for label:
+
+This description is pretty tricky because it references a lot of issues including erosion and oder issues. The main theme of the description however is the sewage overflow which is indicative of a sewer blockage. For this reason, we label it as a Sewer|Sewer Blocakge
+
+Commonly Confused With
+Water|Water Leaking
+
+Sewer|Manhole Complaint

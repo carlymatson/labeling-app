@@ -1,0 +1,267 @@
+D1: Meter Issue
+Definition
+Description whose central theme is around usability, damage or displacement of a power (electric) meter
+
+Clarification
+This is often confused with Water|Meter Issue
+
+If an asset (Power or Water) is not clearly stated or implied in the description then the best label pair is most likely Defer|Meter Issue
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"They came to replace her electric meter this morning. After that, she tried to use her oven and it is not working now."
+
+Rationale for label:
+
+This description clearly references an electric meter that is not working as it should be
+
+More difficult to classify
+
+"There is a burned up meter and a meter scan is needed."
+
+Rationale for label:
+
+This description does not clearly identify the meter as an electric meter but since it is burned up, which is not a typical state for water meters, it should be labeled as Power|Meter Issue
+
+Commonly Confused With
+Water|Meter Issue
+
+D1: Power Asset Issue
+Definition
+Description whose central theme is around usability (with the exception of an outage), damage or displacement of a power asset other than a power meter, a power line or a transformer
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+No examples to date
+
+More difficult to classify
+
+"Green plastic box for the electricity is loose. Kids are able to play with electricity. Box is behind lot 29."
+
+Rationale for label:
+
+The description indicates that the electricity box is loose but provides no other details about said box and does not indicate that there has been a disruption in power service. Because of this, we identify is as an issue with a power asset.
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Service Complaint
+Definition
+Description whose central theme is around work having been done on the power asset that was either unsatisfactory, incomplete, or caused other damage to the either the power asset or another asset
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+No examples to date
+
+More difficult to classify
+
+"New Power Pole still laying in yard. RS Electric finished the rest of the street months ago."
+
+Rationale for label:
+
+This description talks about a power pole that was going to be installed (*new* power pole) but has not been installed yet. The complaint is around work on the power asset being incomplete.
+
+Commonly Confused With
+All other Service Complaint D1 label pairs depending on description context and anchor words
+
+D1: Service Disconnected
+Definition
+Description whose central theme is around a lack of power service for reasons related to bill payment or lack thereof
+
+Clarifications
+Apparent reason for the lack of service is important for this label
+
+If the lack of power is referred to in the context of a billing issue and the power outage is affecting a single residence then the best label pair is most likely Power|Service Disconnected. 
+
+If the lack of power is NOT referred to in the context of a billing issue or if the power outage appears to be affecting many citizens then the best label pair is most likely Power|Service Interruption. 
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"She made a payment online and her power is off."
+
+Rational for label:
+
+This description talks about a power outage in the context of a billing situation. The power outage appears to be affecting only a single residence
+
+More difficult to classify
+
+"They payed their electricity bill but they don't have electricity yet."
+
+Rationale for label:
+
+This description talks about a power outage in the context of a billing situation. The power outage appears to be affecting only a single residence
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Service Interruption
+Definition
+Description whose central theme is around a lack of the power service for any reason other than lack of bill payment
+
+Clarifications
+Apparent reason for the lack of service is important for this label
+
+If the lack of power is referred to in the context of a billing issue and the power outage is affecting a single residence then the best label pair is most likely Power|Service Disconnected. 
+
+If the lack of power is NOT referred to in the context of a billing issue or if the power outage appears to be affecting many citizens then the best label pair is most likely Power|Service Interruption. 
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Electricity is out in our tract"
+
+Rationale for label:
+
+This description references a power outage that affects an entire tract (a span on buildings)
+
+More difficult to classify
+
+"Lights in the house have flickered on and off within the last hour."
+
+This description references intermittent power (flickering). Typically, with when the power is cut off due to non-payment, the outage is immediate rather than intermittent like in this case. 
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Service Request
+Definition
+Description whose central theme is around work a citizen is asking the city to perform that related to the power asset
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+No examples to date
+
+More difficult to classify
+
+"Need electric line coming into the house loosened for painting, and then put back afterward."
+
+Rationale for label:
+
+This description references work on the power line that the citizen needs the municipality to complete. 
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Shutoff Request
+Definition
+Description whose central theme is around a citizen requesting temporary or permanent discontinuation of the power asset
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+No examples to date
+
+More difficult to classify
+
+"Wanted to make sure electrical is disconnected at location given."
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Transformer Issue
+Definition
+Description whose central theme is around problems with power transformers
+
+Clarifications
+Problems can include but are not limited to: transformer explosion, transformer fire, transformer poping, and transformer cycling.
+
+In cases where the transformer problem has caused an outage, we select Transformer Issue because it is the more pressing problem due to danger to citizens. 
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+"The Transformer has blown and it's it's at the driveway of 2381 Willis Road, Berea."
+
+More difficult to classify
+
+"With out power. There is a electrical pole across the street has loud explosion with fire coming out when the electricity comes back on then it goes back out again keeps cycleing"
+
+Rationale for label:
+
+This description is more difficult. It references an electric pole and states that an explosion has happened. A pole itself does not explode but the power transformers that are on the pole can. There is a reference to the power being out but the more immediate issue in this description is that there has been an explosion at the location. Because of this, we select the label Power|Transformer Issue
+
+Commonly Confused With
+Power|Power Asset Issue
+
+Power|Service Interruption
+
+D1: Turn On Request
+Definition
+Description whose central theme is around a request to reinstate the power asset service after a period when it has been off by request
+
+Clarifications
+The reason for the power being off is important for this label
+
+If the power is off because the citizen previously asked for it to be turned off then the best label pair is most likely Power|Turn On Request
+
+If the power is off for another reason and the citizen is asking for it to be turned back on then the best label pair is most likely one of the following: Power|Service Interruption or Power|Service Disconnected
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+No example to date
+
+More difficult to classify
+
+"A dispatcher disconnected her power and she was told to call back to reconnect the power the electrician is currently installing the new can on the house."
+
+Rationale for label:
+
+This description indicates that the citizen previously interacted with the department who came and turned off the power and that she was advised to call when she was ready to turn it back on. 
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Wires
+Definition
+Description whose central theme is around hazards posed by exposed or displaced wires
+
+Clarifications
+The associated asset is important for this label
+
+If the wires are clearly identified as power or electric wires then the best label pair is most likely Power|Wires
+
+If the wires are not clearly identified as power wires then the best label pair is most likely Defer|Wires
+
+Other types of wires include but are not limited to, telephone lines and cable lines
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+No examples to date
+
+More difficult to classify
+
+"Electrical wiring from alley way is pulling away"
+
+Rationale for label:
+
+This description explicitly identifies the wires as electric wires
+
+Commonly Confused With
+Defer|Wires

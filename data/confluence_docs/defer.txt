@@ -1,0 +1,1370 @@
+D1: Access Request
+Definition
+Description whose central theme is around either being locked out of a location or locked in
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"**URGENT** Officer Naumann is at 12950 40th Street and there is a couple who brought items and now they are locked inside the property."
+
+More difficult to classify
+
+"Her and two other pople are stuck inside of Joaquin Miller Park. Everthing is closed and they are stuck inside the park . While speaking to her she disconnected the line. She stated it was her and two other people with their pets and they cannot get their cars out."
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Accident Cleanup
+Definition
+Description whose central theme is around clearing the wreckage resulting from a vehicle accident
+
+Clarifications
+Cause is important for this label. If the wreckage/debris can be traced back to a vehicle accident then the label should most likely be Defer|Accident Cleanup. If the wreckage/debris can NOT be traced back to an accident then it is possible that the label could be Defer|Debris Complaint.
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"There was a minor collision at this corner. Debris still On the road & on the sidewalk. It has been there for several days. Thank you."
+
+Rationale for label:
+
+This description traces the cause of debris in the road back to an accident that occurred on a previous day.
+
+More difficult to classify
+
+"OPD is on scene - requesting removal of debree around the vehicle for a toe."
+
+Rationale for label:
+
+This description indirectly indicates that an accident has occurred because it references the fact that a vehicle needs to be towed (toe is misspelled). Because of this and the references to debris (debree is also misspelled) it would be labeled as a Defer|Accident Cleanup 
+
+Commonly Confused With
+Defer|Debris Complaint
+
+D1: Administration
+Definition
+Description whose central theme is around requiring some sort of help or consultation with a particular individual. Other broad categorization of "administrative help" fall into this label pair as well
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Caller is returning a call. Please call back."
+
+More difficult to classify
+
+"The caller wants to be transferred to ext 35344 for Jermane Farlow line. He is returning the call he know all the issue he is having."
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Alarm
+Definition
+Descriptions whose central theme is around an alarm of some sort going off. 
+
+Clarifications
+Alarm source is very important for this label. 
+
+If the source of the alarm is ambiguous then it should be labeled Defer|Alarm
+
+If the source of an alarm can be directly attributed to a particular asset then it should be labeled at the D0 level according to the associated assset
+
+Notes
+In the future, an additional model will be built to localize these alarms further
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Alarm went off Saturday around 6 pm, no evidence of any problems, except the alarm going off, per caller"
+
+Rational for label:
+
+This description references a nondescript alarm with no clear associated asset
+
+More difficult to classify
+
+"led light blinking on and off"
+
+Rationale for label:
+
+While this description does not explicitly indicate an alarm, typically a blinking light is associated with an alarm. The rest of the description is nondescript with no clear associated asset
+
+Commonly Confused With
+Any other D1 Alarm
+
+D1: Animal Complaint
+Definition
+Description whose central theme is around the nuisance posed by and/or well-being of stray animals (not necessarily animals types that are typically kept as pets)
+
+Clarifications
+This label excludes cases where the animal in question is deceased
+
+The ownership of the animal is important here
+
+If the animal is not associated with a specific owner then the label should most likely be Defer|Animal Complaint
+
+If the animal is clearly a domestic animal and has as associated owner then the label should most likely be Code Enforcement|Animal Violation
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen reports two beagles that are injured. First is black and brown, back left leg is injured. Second is all brown face and front leg looks hurt. They are confine.call taker 77"
+
+Rationale for label:
+
+This description references concern for the welfare of two dogs without an associated owner
+
+More difficult to classify
+
+"The citizen reports there is a dog with white fur, possibly a Boxer breed or Pit Bull mix, that has been hanging around in her backyard since 7am this morning. The caller states the dog does not appear aggressive but she cannot have it there as she also has a dog."
+
+Rationale for label:
+
+This description does not specifically mention a nuisance of concern for welfare but does indicate that it is a situation that needs to be resolved by someone else
+
+Commonly Confused With
+Code Enforcement|Animal Violation
+
+Defer|Dead Animal
+
+D1: Banner Complaint
+Definition
+Description whose central theme is around some sort of hanging decoration or banner, typically that has fallen in the road or is in violation of permissions.
+
+Clarifications
+If the object in question is a traffic sign then the description should NOT be Defer|Banner Complaint
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Caller states she was driving and the banner fell and hit her car. It is now obstructing the road and preventing cars from moving."
+
+More difficult to classify
+
+"The big notice sign about the pumpkin festival is dangling from the street lights. I think someone cut it down! Rascals"
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Barricade Request
+Definition
+Description whose central theme is around the requirement of barricade installment or removal
+
+Clarifications
+Location is important for this label
+
+If the location is related to the road systems then you want to take a look at either of these three label pairs: Streets| Crash Barrier Request, Streets| Crash Barrier Complaint or Streets|Delineators
+
+If the location is nondescript or anywhere other than the road systems then the most likely label is Defer|Barricade Request
+
+Urgency is important for this label
+
+If the request needed immediate attention to prevent harm to citizens then the most likely label is Defer|Emergency Barricade Request
+
+If the request is not urgent and does not indicate that harm could befall citizens then the most likely label is Defer|Barricade Request
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen would like to have concrete barriers placed around the edges of the park so that vehicles are prevented from parking on the grass."
+
+More difficult to classify
+
+"SEWER LINE REPLACED. THIS IS A REQUEST FOR DPW TO REMOVE BARRICADE FROM REAR OF MY PROPERTY. THANK YOU."
+
+Commonly Confused With
+Defer|Emergency Barricade
+
+D1: Billing
+Definition
+Description whose central theme is around incorrect billing for an asset, billing questions, or bill payment.
+
+Clarifications
+This is not asset specific in the current vocabulary
+
+Questions about a bill will also fall into this label pair
+
+If the caller reports that an asset has been turned off in the description then the most likely label pair is asset|Service Disconnected where asset can indicate an relevant asset in the D0 ontology
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The caller said she got her bill and it is not right"
+
+More difficult to classify
+
+"The caller stated that she is calling in regards to her bill. The caller stated that she just made a payment, however it was after 8PM. The caller stated that she would like to make sure her account has been noted so that her water does not shut off."
+
+Commonly Confused With
+Water|Service Disconnected
+
+D1: Board Up
+Definition
+Description whose central theme is around requiring boarding up of a property or portion of a property due to either damage or dereliction
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The caller needs to have a window and a side of a wall boarded up due to fire. You will need to be 3 to 4 sheets of plywood."
+
+More difficult to classify
+
+"He called in from the Santa Clarita Sherriff station. He advised that they put in a request twice about a broken window that has to be secured and no one has responded and no one has called to give them an ETA. They put a deputy on scene for the past 5 hours but they cannot wait any longer and at this point they will have to leave and we are going to have an unsecured building."
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Building Structural Integrity
+Definition
+Description whose central theme is around citizen concerns for the structural integrity of a building
+
+Clarifications
+If the citizen is asking for the building to be boarded up then the best label is most likely Defer|Board Up
+
+If the citizen is complaining or voicing concern about the structural integrity of a building without asking for the building to be boarded up then the best label is most likely Defer|Building Structural Integrity
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+None as of yet
+
+More difficult to classify
+
+None as of yet
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Cave-In
+Definition
+Description whose central theme is around very large holes forming in various locations. 
+
+Clarifications
+Instances that are related to Sewer or Stormwater/drainage related issues are excluded
+
+The relative size of the hole matters for this label
+
+If the hole is small in nature then the most likely label pair is Streets|Pothole
+
+If the hole is substantial in size then the most likely label is one of Defer|Cave-In, Stormwater|Cave-In or Sewer|Cave-In
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen called to report the asphalt has broken up and there is a sinkhole forming at this location on Rockhill Rd the manhole covers are off due to the rain and sinkhole."
+
+Rationale for label:
+
+This description clearly indicates that there is a large hole forming at the location. While it does mention the manhole covers, it is not clear from the description that this is Sewer related. 
+
+More difficult to classify
+
+"The caller said in the middle ofd the street at the N end of 77 Ter. at 77 block there is a whole in the middle of the street and it is getting worse the street is bucking and has turned into mud."
+
+Rationale for label:
+
+This description clearly indicated that there is a large hole (whole is misspelled) forming.
+
+Commonly Confused With
+Sewer|Cave-In
+
+Stormwater|Cave-In
+
+Streets|Pothole
+
+Sewer|Manhole Complaint
+
+D1: Container Complaint
+Definition
+Description whose central theme is around complaints about neglected garbage containers in public places or the need for placement of these containers
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Overlook Park - garbage cans at the park have not emptied for at least a month, they are full. Please send someone to empty the cans at the park"
+
+More difficult to classify
+
+"It also needs a trash can in the playground area (it will help people to keep from throwing trash on the ground)."
+
+Commonly Confused With
+Defer|Estate Complaint
+
+Defer|Debris Complaint
+
+D1: Dead Animal
+Definition
+Description whose central theme is around a dead animal that needs to be picked up
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"DEAD DEER ON GREENWELL SPRINGS RD BETWEEN CORAL DR AND MONTICELLO BLVD"
+
+More difficult to classify
+
+"Citizen says that there is a cead squirrel in his yard. Advised to citizen to put it in a bag,and sit it on the curb."
+
+Commonly Confused With
+Defer|Animal Complaint
+
+Code Enforcement|Animal Violation
+
+D1: Debris Complaint
+Definition
+Description whose central theme is around reporting and/or requesting clean up for trash or miscellaneous debris in locations where it does not belong
+
+Clarifications
+Debris can be organic or manmade in nature. Examples include appliances, tree branches, storm debris (such a leaves and bits of plants), event garbage (such as the remains of a parade), or furniture
+
+When it comes to debris or items in a stormwater ditch or another stormwater channel, the identity of the item is important
+
+If the items in the ditch are organic matter that could naturally occur (grass, dirt, tree limbs, leaves) then the best label pair is most likely Stormwater|Ditch Complaint
+
+If the items in the ditch are not items that could be naturally occurring (trash, furniture, etc.) then the best label pair is most likely Defer|Debris Complaint
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The caller reports there is trash and pieces of a recliner near the fence of this park."
+
+More difficult to classify
+
+"Lots of hazardous items dumped in alley."
+
+Commonly Confused With
+*|Erosion
+
+Defer|Landslide
+
+Defer|Estate Complaint
+
+Defer|Container Complaint
+
+Stormwater|Ditch Complaint
+
+Defer|Easement Maintenance
+
+D1: Downed Pole
+Definition
+Description whose central theme is around notification of poles that have/are falling but that do not have additional descriptors that characterize the identity of the pole type
+
+Classification
+The type of pole is important for this label
+
+If the pole type is clearly a streetlight then the best label pair is most likely Traffic|Downed Streetlight
+
+If the pole type is not clearly defined then the best label pair is most likely Defer|Downed Pole
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"caller reporting a truck knock down a pole"
+
+More difficult to classify
+
+"The citizen called to report that pole # NQE668 is leaning and in danger of falling. The citizen states that it looks like a car may have hit the pole."
+
+Commonly Confused With
+Traffic|Downed Streetlight
+
+D1: Downed Tree
+Definition
+Description whose central theme is around a tree that has fallen and is obstructing normal activity or posing a threat
+
+Clarifications
+If the tree has fallen into a power line or some form of wire then the best label pair is most likely Defer|Tree in Wires
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen is reporting a tree has fallen across the street and is blocking the entire the street."
+
+More difficult to classify
+
+"Citizen reporting that a large tree from Maplewood Greenway was hit by lightning. Citizen states that the top half of the tree was split in half. Citizen states the tree top is still attached to the tree but resting inside the fence of citizen's backyard."
+
+Commonly Confused With
+Defer|Tree Complaint
+
+D1: Easement Maintenance
+Definition
+Description whose central theme is around landscaping that needs to be completed on public property
+
+Clarifications
+Location is important for this label
+
+If the location is on private property then the best label pair is most likely Defer|Estate Complaint
+
+If the location is on public property and IS NOT related to a ditch or stormwater drainage channels then the most likely label is Defer|Easement Maintenance
+
+If the location is on public property and IS related to a ditch or stormwater drainage channels then the most likely label is Stormwater|Ditch Complaint
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen reporting that the island in the middle of N. Oak Trfy from 88th to 90th Street has not been mowed for at least a month. Citizen said that this is causing issues with visibility."
+
+Rationale for label:
+
+The description clearly indicates that mowing is required at an island (patch of landscaped area) related to the streets system
+
+More difficult to classify
+
+"City Property in the rear of homes on the 500 block of E 52nd Street (Once the Piney Woods Playground) is overgrown and encroaching upon the caller's property as well as that of her neighbors."
+
+Rationale for label:
+
+While the description mentions the citizen's property, it clearly states that the area that is in need of landscaping is city property. We know that landscaping is required because the citizen describes the area as "overgrown".
+
+Commonly Confused With
+Defer|Debris Complaint
+
+Stormwater|Ditch Complaint
+
+Defer|Estate Complaint
+
+D1: Emergency Barricade
+Definition
+Description whose central theme is around the need for a barricade immediately in order to prevent harm or damage
+
+Clarifications
+Location is important for this label
+
+If the location is related to blocking or removing blockage from road systems then you want to take a look at either of these three label pairs: Streets| Crash Barrier Request, Streets| Crash Barrier Complaint or Streets|Delineators
+
+If the location is nondescript or anywhere other than the road systems then the most likely label is Defer|Emergency Barricade
+
+Urgency is important for this label
+
+If the request needed immediate attention to prevent harm to citizens then the most likely label is Defer|Emergency Barricade Request
+
+If the request is not urgent and does not indicate that harm could befall citizens then the most likely label is Defer|Barricade Request
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"JAMES WALTON IS REQUESTING FLOOD BARRICADES."
+
+Rationale for label:
+
+This description requests a barricade and references a flood which is considered an emergency event. Additionally, the location is non-specific. 
+
+More difficult to classify
+
+"The caller advises there is a 6-8 foot long open trench in the sidewalk. The caller advises there is no caution tap or barrier up. "
+
+Rationale for label:
+
+The description mentions that there is no barrier around an open trench in the sidewalk. It is considered an emergency situation because a citizen falling into an open trench would be likely to sustain injuries.
+
+Commonly Confused With
+Defer|Barricade Request
+
+D1: Erosion
+Definition
+Description whose central theme is around the washing away or absence of topsoil or a similar material due to causes other than weather patterns
+
+Clarification
+Erosion is typically a complaint about something NOT being there because it has been washed away previously
+
+Issues that are specifically related to the stormwater drainage channels are excluded here
+
+Severity is important for this label
+
+If the movement of land/soil/organic material is relatively small then the best label is most likely either Defer|Erosion or Stormwater|Erosion
+
+If the movement of land/soil/organic material is substantial then the best label is most likely either Defer|Landslide
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen reporting erosion in the back of his property from some type of water system that flows behing all of the properties on his block."
+
+More difficult to classify
+
+"The caller stated that they do not have a direct address its between Ilysian Fields and Golf links street the issue is that there is a wash out by the telephone pole number 21514 and where there is caution tape."
+
+Rationale for label:
+
+This description indicates that there is wash out somewhere. Wash out is typically a way to indicate that a small amount of organic material has been displaced due to water flows.
+
+Commonly Confused With
+Stormwater|Erosion
+
+*|Flooding
+
+Defer|Landslide
+
+D1: FYI
+Definition
+Description whose central theme is the report of seemingly meaningless information that isn't actionable for the city in real time
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen called to report that the City was to be saving money and he is alarmed that we are planting trees that he says we do not need between James A Reed Rd and Wallace up and down E 107th st on the southside of the road."
+
+More difficult to classify
+
+"I often walk my dog on the trail. About every afternoon the Lighthouse Christian School has a large group of kids running on the trail. They seem to take over the trail. I was just wanting to know if every school in Bloomington did this who would the trail belong to? The public for walking, ect. or to the schools? Seems to me that if you let one school all of them could take advantage of this. I do not like to be walking and have to step aside for a group of jogging kids!"
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Fence Complaint
+Definition
+Description whose central theme is around complaints about fence integrity, absence, or maintenance on property owned by the municipality
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The brown wooded fence outside the South Chattanooga center center needs to be secured with a lock. Its located in the back of the parking lot from the playground. Scottie McConnell, South Chattanooga Center 1151 West 40th Street 37409 643-6810"
+
+More difficult to classify
+
+"Hole in fence urban corps recycling center on sdccu stadium grounds"
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Flooding
+Definition
+Description whose central theme is around cases of large amounts of water gathering in a location that cannot be directly traced back to weather related causes or the Water asset at the location
+
+Clarifications
+Source is important for this label
+
+If the source of the flooding can be traced back to weather-related causes then the best label pair is most likely Stormwater|Flooding
+
+If the source of the flooding can be traced back to a water asset explicitly then the best label pair is most likely Water|Flooding
+
+If the source of the flooding is not clearly specified then the best label pair is most likely Defer|Flooding
+
+Notes
+In the future, an additional model will be built to localize these flooding instances further
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Flooding in back yard. Neighbor installed fence and which is blocking water flow, flooding as been worse since."
+
+Rationale for label:
+
+This description does not clearly identify a source for the flooding
+
+More difficult to classify
+
+"The water is filling up the streets."
+
+This description does not clearly identify a source for the flooding
+
+Commonly Confused With
+Water|Flooding
+
+Stormwater|Flooding
+
+*|Erosion
+
+D1: Graffiti
+Definition
+Description whose central theme is around defacement of public property, typically with paint.
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Caller states there is graffitti on the speed limit sign at this address."
+
+Rational for label:
+
+This description explicitly mentions that there is graffiti in a public location.
+
+More difficult to classify
+
+"BLK, ORANGE, SILVER, PINK, WHT & BLUE SPRAYPAINT ALL OVER ROSEHILL CEMETERY BUILDING, ROADWAY, DUMPSTER AND LAMPPOST."
+
+Rational for label:
+
+This description does not explicitly mention graffiti but it does mention spraypaint all over public property in locations that are typically the site of graffiti tags.
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Homeless Encampment
+Definition
+Description whose central theme is around the congregation of homeless individuals in a particular location for a prolonged period of time
+
+Clarifications
+These descriptions normally reference more than one individual but can be in reference to a single individual or to the encampment itself. 
+
+Common language to describe this can include but is not limited to, references to squatters, tents, vacant property, camps or various discarded furniture  
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Increased levels of indigent activity at Ilus Davis Park. Appears some homeless may be taking up residence."
+
+Rationale for label:
+
+The description notes that one or more homeless individuals have taken up residence at a public park
+
+More difficult to classify
+
+"The pier is not supposed to be free camping for druggies. Trash, feces, and needles are left, children pass by daily. This makes the OB look disgusting and unsafe. Please clear this area up!!!"
+
+Rationale for label:
+
+This description mentions many things but the main theme we see here is that homeless individuals camping in the public area is leading to undesirable outcomes. 
+
+Commonly Confused With
+Defer|Police
+
+D1: IT Issue
+Definition
+Description whose central theme is around problems with technical systems, typically reported by city staff or citizens interacting with city websites
+
+Clarifications
+Issues can include but are not limited to problems with internet connection/wifi, issues with municipality websites, staff computer problems, viruses, problems with security software, or problems with any other computer-related electronic device.
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The caller would like to speak with the IT Department Olympia Center. He is a City of Employee Parks Employee. He is unable to log out of his phone system."
+
+Rationale for label:
+
+The description is outlining a problem with an electronic phone system and requesting assistance from IT
+
+More difficult to classify
+
+"Caller says the security cameras are not panning and this is a huge risk"
+
+Rationale for label:
+
+The description does not explicitly ask for help from the IT department but it does reference an electronic device that is not working properly
+
+Commonly Confused With
+Defer|IT Request
+
+D1: IT Request
+Definition
+Description whose central theme is around requesting some technical service or addition of a webpage or features to an existing webpage or app. Typically reported by city staff or citizens interacting with the city's website
+
+Clarifications
+Requests can include but are not limited to requests for features on municipality websites and updates to information on these websites. 
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"I am trying to find a list of all city holidays. It looks like this should be the page with that information but there is no content here. I also cannot find the information elsewhere and don't think I should have to look at a Google calendar to see a list of city holidays."
+
+Rationale for label:
+
+The description is looking for information on city holidays but is not finding the content on the (web)page. There is not an explicit request but there is a need here for the city to provide that information.
+
+More difficult to classify
+
+"I like being able to submit my complaint, but wish I could review my comments, but this web page won't let me scroll back. Please contact me if you have any questions."
+
+Rationale for label:
+
+This description does not explicitly request an IT service but it does mention shortcomings in the webpage that the city is not currently supporting and that the citizen would like to have access to.
+
+Commonly Confused With
+Defer|IT Issue
+
+D1: Illicit Discharge
+Definition
+Description whose central theme is around the leaking or dumping of substances into the water or drainage systems of a city
+
+Clarifications
+Action of the substance is important for this label
+
+If the substance is in the environment and is leaking into a water source then the best label pair is most likely Defer|Illicit Discharge
+
+If the substance is in the environment and NOT leaking into a water source then the best label pair is most likely Hazmat|Chemical Discharge 
+
+If the substance is NOT in the environment and is still in a container of some sort then the best label pair is most likely Hazmat|Chemical Complaint
+
+Caller intention is important for this label
+
+If the caller intention is to report that there have been chemicals dumped in some location then the best label pair is most likely one of the following: Defer|Illicit Discharge, Hazmat|Chemical Discharge, Hazmat|Chemical Complaint, Solidwaste|Chemical Discharge
+
+If the caller intention is to ask about the proper disposal of chemicals or substances so that they can comply with regulations then the best label pair is most likely Hazmat|Checmical Disposal
+
+Source is important for this label
+
+If the source of the leaking/dumping is a garbage collection truck then the best label pair is most likely Solidwaste|Checmical Discharge
+
+If the source of the leaking/dumping is NOT a garbage collection truck then the best label pair is most likley one of the following: Defer|Illicit Discharge, Hazmat|Chemical Discharge, Hazmat|Chemical Complaint
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The gentleman second from the right put his cigarette butt down the storm sewer. I don't mind him smoking, but putting that kind of carcinogen down the storm sewer is ecologically dangerous. please let him know this is unacceptable. thank you"
+
+More difficult to classify
+
+"Workers at a house 2 doors down the alley dumped a large amount of chemicals into the alley and it has leaked into street and storm drain"
+
+Commonly Confused With
+Hazmat|Chemical Complaint
+
+Hazmat|Chemical Discharge
+
+Hazmat|Chemical Disposal
+
+Solid Waster|Chemical Discharge
+
+D1: Irrigation Issue
+Definition
+Description whose central theme is around irrigation systems such as sprinklers. Typically regarding the system leaking or causing damage to other assets.
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The caller advised that her neighbors sprinklers busted and that they are out of town."
+
+More difficult to classify
+
+"For years now, there has been a water flow from this strip mall grass area down to the intersection of El Cajon and Florida. The attached picture is from Google Maps, you can see how much water is running off their grass all the time and into the intersection, which continually causes degradation of the asphalt which the city has had to repair multiple times. Any way to stop the water from flowing?"
+
+Commonly Confused With
+*|Erosion
+
+Water|Water Leaking
+
+D1: Labor Request
+Definition
+Description whose central theme is around requesting city employees to complete some task that is not related to the maintenance of city systems
+
+Clarifications
+Task type is important for this label
+
+If the task type is some upkeep or repair of a municipality system that typically would be maintained by a maintenance crew then the best label pair is most likely Defer|Maintenance Request
+
+If the task type is anything other than some upkeep or repair of a municipality system that typically would be maintained by a maintenance crew then the best label pair is most likely one of the following: Defer|Labor Request, Defer|Service Request or an asset-specific Service Request (*asset*|Service Request) 
+
+Location is important for this label
+
+If the location of the request is within a municipality facility building then the best label pair is most likely Defer|Labor Request
+
+If the location of the request if not within a facility building then the best label pair is most likely one of the following: Defer|Maintenance Request, Defer|Service Request or an asset-specific Service Request (*asset*|Service Request) 
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"HELP CHRISTIE AT THE MAIL ROOM PICK UP A BUNCH OF MAIL TRAYS FROM THE SHALLOWFORD POST OFFICE AROUND 11:00AM 4-26-17"
+
+Rationale for label:
+
+This description is referencing a municipality facility building and the task type is not related to a system that needs maintenance.
+
+More difficult to classify
+
+"The caller stated that the porch light to the library is off and she does not know how to turn it on. It is really dark and they will be open until 7:00 PM."
+
+Rationale for label:
+
+This description is referencing a municipality facility building and the task type is not related to a system that needs maintenance.
+
+Commonly Confused With
+Defer|Maintenance Request
+
+D1: Landslide
+Definition
+Description whose central theme is around the movement of large amounts of substrate material in locations where it should not be
+
+Clarification
+Severity is important for this label
+
+If the movement of land/soil/organic material is relatively small then the best label is most likely either Defer|Erosion or Stormwater|Erosion
+
+If the movement of land/soil/organic material is substantial then the best label is most likely either Defer|Landslide
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen states that with all the rain they are noticing mudslides all over the place"
+
+Rationale for label:
+
+This description references a mudslide which corresponds with the movement of a large amount of organic material
+
+More difficult to classify
+
+"mud and rocks 4 inches deep, wet, flowing across the street, 100 yards past E Brainerd Rd at Banks Rd intersection"
+
+Rationale for label:
+
+This description mentions flowing organic material with a depth that is significant
+
+Commonly Confused With
+*|Erosion
+
+D1: Maintenance Request
+Definition
+Description whose central theme is around the upkeep of common city-systems or facilities. These are typically reported by city employees
+
+Clarifications
+Task type is important for this label
+
+If the task type is some upkeep or repair of a municipality system that typically would be maintained by a maintenance crew then the best label pair is most likely Defer|Maintenance Request
+
+If the task type is anything OTHER THAN some upkeep or repair of a municipality system that typically would be maintained by a maintenance crew then the best label pair is most likely one of the following: Defer|Labor Request, Defer|Service Request or an asset-specific Service Request (*asset*|Service Request)
+
+Location is important for this label
+
+If the location of the request is within a municipality facility building then the best label pair is most likely Defer|Labor Request
+
+If the location of the request if not within a facility building then the best label pair is most likely one of the following: Defer|Maintenance Request, Defer|Service Request or an asset-specific Service Request (*asset*|Service Request)
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The water dispenser does not work in the refrigerator (City Attorney's office main kitchen)"
+
+Rationale for label:
+
+The description clearly indicates that this is a municipality facility and that an appliance that is typically maintained is in need to inspection
+
+More difficult to classify
+
+"Valleja Police department personal vehicle gate to cars.  Caller states gate is stuck in open position."
+
+Rationale for label:
+
+This description does not clearly state that this is related to a city facility but the police department is considered a city service and their gate is in need of maintenance.
+
+Commonly Confused With
+Defer|Labor Request
+
+D1: Odor Complaint
+Definition
+Description whose central theme is around citizens reporting smells that cannot be assigned as Gas, Hazmat, Stormwater, Sewer or Water issues.
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+None as of yet
+
+More difficult to classify
+
+None as of yet
+
+Commonly Confused With
+Water|Odor Complaint
+
+Stormwater|Odor Complaint
+
+Sewer|Odor Complaint
+
+Hazmat|Odor Complaint
+
+D1: Parking Meter Issue
+Definition
+Description whose central theme is around problems with municipality parking meters
+
+Clarifications
+Specificity is important here as there are many types of meters that a citizen might report (ex: Water Meter, Power Meter)
+
+If the description can be clearly assigned to a parking meter or there are clear references to features of a parking meter then the best label pair is most likely Defer|Parking Meter Issue
+
+If the description cannot be clearly associated with a parking meter then the best label pair. ismost likely asset|Meter Issue
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Caller stating there are three broken parking meters where she is trying to park. These are on the west side of Baltimore between the 700 and 800 block. Please repair."
+
+Rationale for label:
+
+This description explicitly indicates the problem is with a parking meter
+
+More difficult to classify
+
+"CITIZEN IS CALLING IN TO REPORT DAMAGE METER ATTEMPT TO USE METER CARD WOULD NOT EXCEPT IT NOR THE QUARTERMETER IS IN FRONT OF UMB TECH BUILDING BUILDING"
+
+Rationale for label:
+
+This description does not explicitly mention a parking meter but does mention a meter card or a quarter meter which indicates a payment method for a parking meter.
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Pests
+Definition
+Description whose central theme is related to insects and/or rodent infestations, reports, or complaints. These are typically reported in the context of city facilities
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Roaches.....In broad daylight, they are crawling around the women's bathroom, 1st Floor. . Please send help!
+
+More difficult to classify
+
+"We are having a mice issue at the WellAdvantage center and would like to have all entrances to the building as well as along all walls to make sure there are no inlets for critters of any kind."
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Police
+Definition
+Description whose central theme is related to situations that would most likely require police intervention
+
+Clarifications
+These can be difficult to distinguish from Defer|Homeless Encampment sometimes.
+
+If a homeless encampment is mentioned and the citizen mentions the threat of violence then the best label is most likely Defer|Police
+
+If a homeless encampment is mentioned and the citizen does NOT mention the threat of violence then the best label is most likely Defer|Homeless Encampment
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Drug dealer on corner"
+
+More difficult to classify
+
+"Same encampment of vagrants that has been there for weeks. They stay around the northwest planter night and day smoking meth and threatening residents. The curfew in this park does not seem to be enforced."
+
+Rationale for label:
+
+This description mentions a homeless encampment but also mentions the threat of violence which makes Police a more applicable label
+
+Commonly Confused With
+Defer|Homeless Encampment
+
+D1: Question
+Definition
+Description whose central theme is around miscellaneous questions that do not fit well into other asset question label pairs as they are written
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Caller saw some orange marking on the side of the road and on her lawn.  She wanted to confirm what this is about?"
+
+More difficult to classify
+
+"Citizen is requesting information on some marking that is being done on the street and sidewalks."
+
+Commonly Confused With
+Any other Question D1 label pair depending on description context or anchor words
+
+D1: Request Canceled
+Definition
+Description whose central theme is related to the cancellation of a report that was previously given or a request that was previously made
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The caller said he received a message to call back, his water was out for 20 minutes and came back on. He has no further problem."
+
+More difficult to classify
+
+"The caller is calling to cancel the call out."
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Retrieval Request
+Definition
+Description whose central theme is around a situation where an item was lost in a municipality system and the caller is in need of the city to assist in acquiring it 
+
+Clarifications
+Typically the system in question will be a storm drain or other drainage system conveying stormwater. This is not always the case though
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The caller states the Wedding Ring fell in the Storm Drain."
+
+More difficult to classify
+
+"Citizen reporting their child's skate-board fell into the inlet at this location, on the northeast corner of Mokane & NW 65th St.Veronica Childress 513-4755, 7/17"
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Scooters
+Definition
+Description whose central theme is around the public scooter system in a city
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"I reported a scooter parked here on S Park Ave---714, I think--two days ago. Here is another this morning."
+
+More difficult to classify
+
+"I believe I addressed this issue with letter to Mayor Hamilton but believe all the scooters should be rounded up until some regulations can be put together and enforced. There is a difference between entrepreneurship and negligence."
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Service Complaint
+Definition
+Description whose central theme is around work done by the city that was unsatisfactory in some manner and that is not explicitly related to another city asset
+
+Clarifications
+If a specific municipality asset it mentioned then the description should be labeled with that asset, otherwise it can be labeled as Defer
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"ACCORDING TO RESIDENT, "WE DID WORK ON STREET OUTSIDE OF HOME, NOW THERERE HOLES IN LAWN." HE ASKED FOR REPAIRS OF GRASS AND HOLES TO BE FILLED."
+
+More difficult to classify
+
+"states the brush truck backed into the mail box and crushed it."
+
+Commonly Confused With
+Any other Service Complaint D1 label pair depending on description context or anchor words
+
+D1: Service Request
+Definition
+Description whose central theme is around work a citizen is asking the municipality to perform on municipality infrastructure that is not related to the maintenance of existing systems and that is not explicitly related to another municipality asset
+
+Clarifications
+Task type is important for this label
+
+If the task type is some upkeep or repair of a municipality system that typically would be maintained by a maintenance crew then the best label pair is most likely Defer|Maintenance Request
+
+If the task type is anything other than some upkeep or repair of a municipality system that typically would be maintained by a maintenance crew then the best label pair is most likely one of the following: Defer|Labor Request, Defer|Service Request or an asset-specific Service Request (*asset*|Service Request)
+
+Location is important for this label
+
+If the location of the request is within a municipality facility building then the best label pair is most likely Defer|Labor Request
+
+If the location of the request if not within a facility building then the best label pair is most likely one of the following: Defer|Maintenance Request, Defer|Service Request or an asset-specific Service Request (*asset*|Service Request)Examples 
+
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen would like to make a suggestions to have something to block the sun for the kids while they swim,or something to enhance the pool area to look better. This pool is a city pool at 4100 Kenwwod and Gillham Rd."
+
+More difficult to classify
+
+"Citizen states: "Would it be possible to get like a dump truck or two full of gravel to put down where the permanent mudhole is at the Brush Drop Off location at I470 and Raytown Road? It is very annoying when it is nice weather and your vehicle has been cleaned up to go there to drop off brush only to get mud slung all over your vehicle and underneath of it then you have to go to the carwash and spend another $10.00 and a half hour to clean it all up again. Thank you!"
+
+Commonly Confused With
+Defer|Labor Request
+
+Defer|Maintenance Request
+
+Any other Service Request D1 label pair depending on description context or anchor words
+
+D1: Snow and Ice (LABEL NO LONGER IN USE)
+Definition
+Description whose central theme is around snow or ice conditions in locations other than the street
+
+Notes
+These will be remapped to Streets|Snow and Ice in the future. Please label all new instances as Streets|Snow and Ice
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The sidewalk in front of Brownstone Terrace on East 14th Street between Washington & Dunn is a sheet of ice. It is extremely dangerous."
+
+More difficult to classify
+
+"the issue of the ice is on 79th Terr behind the address given. It is a sheet of ice."
+
+Commonly Confused With
+Streets|Snow and Ice
+
+D1: Streetlight Complaint
+Definition
+Description whose central theme is around outages or issues with streetlights, other than the streetlight falling
+
+Notes
+Traffic|Streetlight Complaint will be remapped to this label pair in the future; please label all new instances as Defer|Streetlight Complaint
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen reporting all the lights are out in Case Park at 10th and Jefferson. The caller stated that none of the lights come on in the evening."
+
+More difficult to classify
+
+""Caller reporting a concern about light in Harmony Park. Security light is not coming on."
+
+Commonly Confused With
+Traffic|Streetlight Complaint
+
+D1: System Test
+Definition
+Description whose explicit purpose is to test the system
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"This is a test from Chippy. Nothing to see here"
+
+More difficult to classify
+
+"ignore this"
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Tree Complaint
+Definition
+Description whose central theme is around issues with a tree other than if the tree has fallen or the tree is causing a hazard in conjunction with wires
+
+Clarifications
+Tree state is important for this label
+
+If the tree has fallen and is not in contact with wires or power lines then the best label pair is most likely Defer|Downed Tree
+
+If the tree has come into contact with wires or power lines then the best label pair is most likely Defer|Tree in Wires
+
+If the tree has NOT fallen and is NOT in contact with wires but something is wrong with the tree then the best label pair is most likely Defer|Tree Complaint
+
+Intention is important for this label
+
+If the citizen is intending to complain about something the city has done or left undone with regard to the tree in question then the best label pair is most likely Defer|Tree Complaint. This is true even if the citizen is also asking the city to take action.
+
+If the citizen is NOT intending to complain about something the city has done or left undone with regard to the tree in question but is instead just asking the municipality to perform some service then the best label pair is most likely Defer|Tree Request
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The citizen is reporting that the dead tree is behind his house on the city ROW. The bark is almost of the whole tree. They have not produced any tree leaves in 2 years. There are 2 trees and they sit on the ROW, behind his fence."
+
+Rationale for label:
+
+The description states that there is something wrong with the tree because it is missing most of its bark. 
+
+More difficult to classify
+
+"Citizen called to report that the City planted a tree at the curb area about 1-month ago, and it died. They planted another tree at this same location once again, but this tree was not planted properly,and she stated the tree was leaning after it was planted in the ground. The citizen stated that they tried to take it upon themselves and fix the tree themselves, and replant this tree, but the tree still died. She wants a new tree planted at this location."
+
+Rationale for label:
+
+The description indicates that a tree is repeatedly dying but the tree has not fallen. The citizen is requesting a new tree but the main theme of the description is around the citizen complaining about previous work the city has done
+
+Commonly Confused With
+Defer|Tree Request
+
+Defer|Downed Tree
+
+Defer|Tree in Wires
+
+D1: Tree Request
+Definition
+Description whose central theme is around requests for service related to trees other than removal of a fallen tree or service to a tree than is tangled in wires
+
+Clarifications
+Intention is important for this label
+
+If the citizen is intending to complain about something the city has done or left undone with regard to the tree in question then the best label pair is most likely Defer|Tree Complaint. This is true even if the citizen is also asking the city to take action.
+
+If the citizen is NOT intending to complain about something the city has done or left undone with regard to the tree in question but is instead just asking the municipality to perform some service then the best label pair is most likely Defer|Tree Request
+
+typos intended to mimic production data
+
+Easier to classify
+
+"The citizen is calling to report that they would like a permit to treat the tree themselves."
+
+Rationale for label:
+
+The citizen is making a request to treat a tree
+
+More difficult to classify
+
+"Caller reported that the tree located between the street and sidewalk was cut down a couple of years ago. Citizen is requesting that a new tree be planted."
+
+Rationale for label:
+
+The description is requesting a new tree to be planted
+
+Commonly Confused With
+Defer|Tree Complaint
+
+Defer|Downed Tree
+
+Defer|Tree in Wires
+
+D1: Tree in Wires
+Definition
+Description whose central theme is around reports of trees posing a potential threat due to interaction with wires or power lines
+
+Clarifications
+If in any situation a tree is in wires, Tree in Wires is the preferred label. This is because Tree in Wires is a higher priority to respond to due to the threat of danger to citizens. 
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen called requesting tree trimming.Trees on City property are growing into their fence and power lines."
+
+More difficult to classify
+
+"Private ree hanging on streetlight wire on duplex."
+
+Commonly Confused With
+Defer|Tree Complaint
+
+Defer|Downed Tree
+
+Defer|Tree Request
+
+D1: Unusable Description
+Definition
+Description without any clear central theme that aligns with an actionable label pair
+
+Clarifications
+These tend to be descriptions that cannot be clearly traced to any D1 or D0 label
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"No."
+
+More difficult to classify
+
+"Near the Valvoline Instant Oil pass the ramp on Hwy 58 Northbound"
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Utility Locate
+Definition
+Description whose central theme is around requesting a service to help find the utility locations in an area in order to perform construction or maintenance to an asset
+
+Clarifications
+There are attempts to identify the location of the power, sewer, gas, or water lines in an area.
+
+Generally speaking, this normally occurs during construction or another project when workers are trying to find a line to either work on it or make sure they do not accidentally hit it during the course of their work
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"The caller is a contractor and called for sewer location"
+
+More difficult to classify
+
+"TODD MCCAIN OWNER REPORTING WORKING ON REPAIRS TO THEIR SEWER MAIN AND THEY NEED TO DIG UNDER ALLEY AND WANT TO KOW WHAT THEY NEED TO DO"
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Wires
+Definition
+Description whose central theme is around hazards posed by exposed or displaced wires
+
+Clarifications
+Wire type is import for this label
+
+If the wire type is clearly a power line then the best label pair is most likley Power|Wires
+
+If the wire type is not specified or is a type other than Power then the best label pair is most likely Defer|Wires
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"Wires down at Wyeth St (near Eastern Ave)"
+
+More difficult to classify
+
+"Electric pole is leaning towards a duplex. The lines are quite low."
+
+Commonly Confused With
+Power|Wires

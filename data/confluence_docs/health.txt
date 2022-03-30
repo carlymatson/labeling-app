@@ -1,0 +1,38 @@
+D1: Social Distancing Violation
+Definition
+Description whose central theme is around companies or individuals not complying with COVID-19 measures
+
+Notes
+Defer|Social Distancing Violation will be merging with the label pair in the future; please label all descriptions with Health|Social Distancing Violation going forward
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"An Employee tested Positive for COVID-19 on 9/18, no one was told to quarantine or get tested. There are no protective measures taking place."
+
+More difficult to classify
+
+"The shell at this gas station is not wearing masks and they let people in also. Needs to be looked in to."
+
+Commonly Confused With
+Defer|Social Distancing Violation
+
+D1: Vaccinations
+Definition
+Description whose central theme is around the topic of vaccination information
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"She is calling for a Covid vaccine for people who has asthma and is not sure where to go."
+
+More difficult to classify
+
+"The caller needs the number for COVID-19 shot."
+
+Commonly Confused With
+No known confusions at this time

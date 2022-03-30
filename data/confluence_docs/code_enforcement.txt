@@ -1,0 +1,500 @@
+D1: ADA Compliance
+Definition
+Description whose central theme is around violations to lack of compliance with the Americans with Disabilities Act (ADA)
+
+Clarifications
+The ADA is a civil rights law that prohibits discrimination against individuals with disabilities in all areas of public life, including jobs, schools, transportation, and all public and private places that are open to the general public.
+
+Example violations:
+
+Failing to install a wheelchair ramp to access a place that is open to the public;
+
+Having a lack of handrails on staircases or walkways; 
+
+Failing to install adequate handicap restroom accommodations or parking spots in the parking lot of a public place;
+
+Imposing special fees to accommodate disabled persons; 
+
+Not providing effective communication methods for persons with hearing, visual, or speech impairments; 
+
+Having hallways or staircases that are too steep or narrow;
+
+Malfunctioning elevator or escalator systems that are constantly left out of order; and/or
+
+Not hiring or firing a worker for discriminatory reasons that are based on an otherwise qualified worker’s disability.
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen dissapopinted with ADA facilities at Bartle Hall"
+
+Rationale for label:
+
+The description clearly outlines that there is a problem with the ADA facilities
+
+More difficult to classify
+
+"Citizen reporting that the sidewalk and ramp are damaged and need replaced. It is a hazard and there is a homeowner in a wheelchair. It needs to be repaired as soon as possible so that he can access his home at the Riverbend Lofts."
+
+Rationale for label:
+
+The description suggests that negligence has left the infrastructure that is meant to support the disabled community in disrepair
+
+Commonly Confused With
+No common confusions to date
+
+D1: Abandoned Vehicle
+Definition
+Description whose central theme is related to vehicles (of any sort) that have been abandoned for a prolonged amount of time in a public location
+
+Clarifications
+The location of the vehicle is critical to identifying if this is a Code Enforcement|Abandoned Vehicle description or a Code enforcement|Estate Complaint description.
+
+Vehicles abandoned on public property (streets, parks, etc.) are labeled as Code Enforcement|Abandoned Vehicle while vehicles abandoned on private property are labeled Code enforcement|Estate Complaint.
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+"Bike is locked to handicap sign (2wks), forbidding bicycles to be locked to it."
+
+Rationale for label:
+
+The description clearly indicates that a vehicle (the bike) has been left in a public location. We know this is a public location because of the reference to the handicap sign; these signs are typically only present in public locations.
+
+More difficult to classify
+
+"She mentioned there was a van dumped in front of her street, it was done by a group of kids probably teenagers. She is not sure if it was stolen."
+
+Rationale for label:
+
+The description is referencing a van that has been dumped. The term "dumped" is typically associated with abandoning something or throwing it away. What makes this difficult to label is that the description also mentions the possibility that the van was stolen. In this case, the caller is "not sure" so we default to the main reported issue.
+
+Commonly Confused With
+Fleet|Vehicle Maintenance
+
+Code Enforcement|Estate Complaint
+
+D1: Animal Violation
+Definition
+Description whose central theme is around violations of leash laws, noise ordinances, or welfare rights regarding animals
+
+Clarifications
+These descriptions typically indicate that the object that is doing something "wrong" is a human and subject of the wrong doing is an animal that belongs to them.
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen is calling to request that the dogs living at 4129 Brooklyn Ave be investigated for no being on a leash and for not having tags or licenses. One dog is blackish gray and the other dog is light brown in color both are Pit Bull mix."
+
+Rationale for label:
+
+This description requests an investigation for attributes of the dog's that are clearly the responsibility of a human; putting a dog on a leash, getting it tags, and obtaining the proper licenses for it.
+
+More difficult to classify
+
+"These people have about 10 ferrets running around their house that they can't feed and keep bothering neighbors to help them out with pet food. They also have a really big dog that looks emaciated. They also have a black cat."
+
+Rationale for label:
+
+This description is not reporting a directly observed violation of a law or ordinance but is reporting observations that can be interpreted as violations of animal welfare rights.
+
+Commonly Confused With
+Defer|Animal Complaint
+
+D1: Construction Complaint
+Definition
+Description whose central theme is around damage or disturbance to citizens caused by explicit construction and/or land development projects. Projects can be performed by industrial, personal, or municipality actors
+
+Clarifications
+These disturbances can include things such as damage to personal property, redirection or blockage of water flows that can be directly attributed to the construction project, and debris obstructing access to personal property
+
+Attribution is very important in this classification.
+
+If the description indicates that the violating party is a construction or development project then the description is likely to be a Code Enforcement|Construction Complaint
+
+If the description indicates that the violating party is someone or something OTHER THAN a construction or development project and the main complaint is about the redirection or blockage of water flows then the description is likely to be a Code Enforcement|Drainage Violation
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen called in to advise that his yard and everyone elses yards are being flooded when it rains due to the developers behind his residence"
+
+Rational for label:
+
+This description indicates that work done by developers working near the citizens residence is causing a redirection of water flows that is disrupting the citizen and other citizens in the area.
+
+More difficult to classify
+
+"Caller state that her neighbor was making him a driveway and he cut some of the curb down.Caller state this is going to cause flooding and will need to build the curb back up"
+
+Rational for label:
+
+This description is related to the personal construction project of a neighbor. While not damage has resulted to the citizen's property at the time the description is reported, the citizen states that future damage is likely.
+
+Commonly Confused With
+*|Flooding
+
+Code Enforcement|Drainage Violation
+
+*|Erosion
+
+D1: Drainage Violation (LABEL NO LONGER IN USE)
+Definition
+Description whose central theme is around redirection or blockage of water flows that results in water draining onto the citizen's property or another referenced property due to the actions of another party or improper infrastructure
+
+Clarifications
+Attribution is very important in this classification.
+
+If the description indicates that the violation party is someone or something OTHER THAN a construction or development project then the description is likely to be a Code Enforcement|Drainage Violation
+
+If the description indicates that the violation party is a construction or development project then the description is likely to be a Code Enforcement|Construction Complaint
+
+Note
+This will be remapped to Stormwater|Drainage Violation pair in the future. Please label all new occurrences as Stormwater|Drainage Violation
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+"CALLER STATES THAT THE RESIDENT IS DRAINING WATER ONTO HIS PROPERTY, BLOCKING HIS DRAINAGE. PLEASE INSPECT."
+
+Rationale for label:
+
+This description is a little vague but there are clear elements to suggest that another citizen is performing some activity that is causing problems with the calling citizen's drainage.
+
+More difficult to classify
+
+"THERE IS A RETAINING WALL BEHIND THIS HOUSE THAT HAS 12 LARGE PIPES COMING OUT OF IT WHICH IS DRAINIING ONTO The PROPERTY at 53232 Cottage Ct. AND IS NOW GOING INTO THE HOUSE. This wall is starting to break down and needs to be taken out."
+
+Rationale for label:
+
+This description does not specifically attribute the problem to another citizen directly but does indicate that the problem starting at another house which suggests another citizens involvement in the action causing the draining issue at the residence the caller is referring to.
+
+Commonly Confused With
+*|Flooding
+
+Code Enforcement|Construction Complaint
+
+*|Erosion
+
+D1: Estate Complaint
+Definition
+Description whose central theme is related to complaints about personal property conditions, typically that are violating building codes or property regulations.
+
+Clarifications
+These are most often about a neighboring property but are occasionally about the calling citizen's property if they are not the owner of said property
+
+Location is important here. If a reported problem cannot be localized to a citizen's residence and/or property, it will NOT BE labeled as an Estate Complaint
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+"This residence has no hot water or hot water tank, large hole in basement wall, no electric service, no working appliances, and is infested with bugs. There are no fire alarms, and no exits which creates a hazard."
+
+Rational for label:
+
+This description refers to a derelict building with conditions that are indicated to be hazardous. The building is clearly identified as a residence
+
+More difficult to classify
+
+"caller is stating that she has mold in her bathroom above the tub. The maintance crew came out on 2/20/07 and cleaned it with bleach/water. She was told that it was from condensation however the mold has returned. She is not getting a reply from management on addressing the problem. Pls investigate. Thanks"
+
+Rational for label:
+
+This description refers to issues in the citizen's own residence but indicates that a maintenance crew is responsible for upkeep. The call is suggesting that the citizen is unable to get the maintenance crew to properly maintain the residence and needs assistance.
+
+Commonly Confused With
+Defer|Easement Maintenance
+
+Code Enforcement|Abandoned Vehicle
+
+Defer|Maintenance Request
+
+Code Enforcement|Health Complaint
+
+D1: Health Complaint
+Definition
+Description whose central theme is centered around code violations that could result in physical or mental harm to the citizen or other citizens
+
+Clarifications
+
+This label excludes descriptions with references to spilled, discarded or leaking chemicals.
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen is reporting that resident at this location keeps burning at this location. Citizen states the smoke is toxic and smells like they are burning plastic or rubber."
+
+Rationale for label:
+
+This description refers to burning of items that result in toxic vapors in the air.
+
+More difficult to classify
+
+"Mold concern in unit when heat turned on. Also In common area."
+
+Rational for label:
+
+This description does not directly refer for another citizen violating a law or ordinance but it does refer to mold which can be a toxic substance. If we has an indication that this mold was located at a citizen's residence or property we could label it as Code Enforcement|Estate Complaint but since this location is unclear it is labeled as Code Enforcement|Health Complaint.
+
+Commonly Confused With
+Defer|Maintenance Request
+
+Code Enforcement|Estate Complaint
+
+D1: Illegal Dumping
+Definition
+Description whose central theme is related to dumping garbage waste where it does not belong
+
+Clarifications
+This label excludes descriptions with references to spilled, discarded or leaking chemicals.
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+"REPORTED BY PD. A RED/MAROON DODGE CAR WITH PLATE # 5H31457 CAUGHT ON A SECURITY CAMERA DUMPED COUCH AND OTHER THINGS IN THE ALLEY BEHIND THE ADDRESS."
+
+Rational for label:
+
+This description clearly references the dumping of trash items in a location that is not a trash receptacle
+
+More difficult to classify
+
+"There was a man driving a silver Toyota Corolla that looked really suspicious as he got into the neighborhood. He parked his car next to the bushes, lighted a cigarette, walked into the bushes, looked around, came back to his vehicle, opened the trunk, and he took out a trash bag full of glass bottles (I could hear the glasses and the bag seemed very heavy) and took the back into the bushes. He took out another (one or two more trash bags), and did the same thing. He moved them into the bushes, then he drove off."
+
+Rational for label:
+
+This description also clearly references the dumping of trash items in a location that is not a trash receptacle but it also discusses the character of the citizen in question which could lead to a different classification if focused on. However, the main content of the description is the dumping of the trash bags.
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Noise Violation
+Definition
+Description whose central theme is related to either extremely loud, disruptive noise or noise that is occurring during regulated hours
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen stated" I've been awakened the past two mornings (yes, that includes Easter Sunday) at approximately 6:10am to the sounds of the equipment in use again. Operating company for Ward Parkway Shopping Center is in violation of noise ordinances by operating noisy equipment before 7am."
+
+More difficult to classify
+
+"Ice cream truck playing loud music and loudspeaker at extremely high volume. Occurs in afternoons between 4-7pm and can be heard from 3 blocks away."
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Painting Violation
+Definition
+Description whose central theme is related to painting structures or areas that should not be painted
+
+Clarifications
+This label excludes graffiti
+
+Typical examples involve illegally painting the curb
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+"Curb is painted red, and it's not even a driveway. Home owner insists that city painted but it visibly a regular curb."
+
+Rational for label:
+
+More difficult to classify
+
+"Please eval if this red zone is valid. Ifo driveway with garage but no apron. Not sure if permitted"
+
+Rational for label:
+
+This description refers to a question about the validity of a curb zone painted red that is in front of (ifo) a driveway. These two pieces of information suggest that there may be some violation with the painting of the curb.
+
+Commonly Confused With
+Streets|Painting
+
+D1: Parking Violation
+Definition
+Description whose central theme is around vehicles in areas that are not designated for parking or vehicles that have been ticketed for parking in such areas with citizens calling to contest
+
+Clarification
+Length of time in an area is important for this label.
+
+If a vehicle has only been in the area for a short period of time then the label should most likely be Code Enforcement|Parking Violation.
+
+If a vehicle has been in the location for an extended period of time or language is used to suggest the owner is not returning for it then the label should most likely be Code Enforcement|Abandoned Vehicle.
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen was issued a ticket. Public works has conferred that the parking spaces were marked incorrectly. Citizen is requesting a refund and the ticket be cleared. Please contact citizen."
+
+Rationale for label:
+
+This description is a citizen report contesting a parking violation ticket they received
+
+More difficult to classify
+
+"Citizen states she place 75 cents in the Walnut pay station, stall #85 just before 8 am and would have expired at 0836 hrs. She received an expired meter ticket shortly after 8 am."
+
+Rationale for label:
+
+This description also has a citizen report contesting a parking ticket but does not specifically ask for remediation.
+
+Commonly Confused With
+Code Enforcement|Abandoned Vehicle
+
+D1: Permits
+Definition
+Description whose central theme is around either calling to request a permit to complete some form of construction or building project.Examples
+
+typos intended to mimic production data
+
+Easier to classify
+
+"Needs to get a building permit to finish his basement. He is asking how to do that? Can he get the form from the office? He left the form at his office in Parksville and did not want to drive back and forth multiple times before 9:00."
+
+Rationale for label:
+
+This description contains a question but the main purpose of the call it to get a building permit.
+
+More difficult to classify
+
+"Called needing permit for a new driveway"
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Question
+Definition
+Description whose central theme is around citizens calling in to question anything about code enforcement in general, specifically in cases where the question is mimicking a report of a violation or the perception of a violation
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+"Why is the sidewalk closed? They are doing construction on a private building. Shouldn?t the builders create a walkway on the public sidewalk? It?s a heavily used sidewalk. The sidewalk on Adams Ave is the actual street where sidewalk is closed."
+
+More difficult to classify
+
+"Now that the stay at home orders have expired, haven’t the permits for the local road closures expired??? If not when do they expire?"
+
+Commonly Confused With
+Any other Question D1 label depending on context or anchor words in the description
+
+D1: ROW Violation
+Definition
+Description whose central theme is around blockage of or improper usage of the right-of-way
+
+Clarifications
+Right-of-way (ROW) is the municipality-owned strip of land from the edge of the street back about 3 to 10 feet through the sidewalk
+
+This label does not include instances where there is a lot of trash or organic debris in the ROW
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+"There is a sign the ROW. It is a roofing sign."
+
+More difficult to classify
+
+"I've reported it before, but still hasn't been fixed. The store puts signage in the sight triangle and makes turning onto Wornall very dangerous. You cannot see NB oncoming traffic. Please help with this before an accident occurs. I've asked them in the store to not place it in that location, but they don't seem to care."
+
+Rational for label:
+
+This description references a sight triangle which is an are of space that includes the ROW. A sight triangle should never be blocked since it is the view space necessary for drivers to make safe decisions about turning. Therefore, this constitutes a ROW Violation.
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Service Complaint
+Definition
+Description whose central theme is around complaints about code enforcement staff performing their duties
+
+Clarifications
+Complaints can be about things that have been done improperly or things that have been left undone
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+No examples at this time
+
+More difficult to classify
+
+"Citizen wants to report the parking officier driving vehicle 4141. He was writing tickets on walnut from 10th to 9th street, as these vehicles were parked illegally......While he was writing the tickets he was blocking the center lane instead of parking in front of all of the cars on the right lane and walking up to issue the tickets to the vehicles.....also same officer was writing a tickets where he past up fed exp truck and a moving truck and these trucks were blocking the bus lane to unload, but he then issues the cars that are parked in the same lane tickets.....now if they are all parked there at the same time and are all blocking the bus lane then they all should receive tickets......just would like some clarifcation to the policy. Citizen would like for supervisor to give him a call."
+
+Rationale for label:
+
+This description is difficult because it references issues with parking violations but the main theme is a complaint about the way the officer was performing his duties.
+
+Commonly Confused With
+Any other Service Complaint D1 label depending on context or anchor words in the description
+
+D1: Social Distancing Violation
+Definition
+Description whose central theme is related to violations of the social distancing mandate for Covid-19
+
+Notes
+This will merge with Health|Social Distancing Violation in the future. Please label any new descriptions fitting this definition as Health|Social Distancing Violation.
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+"Where were you police and lifeguard clowns today? I know you were in your helicopter, you are probably in the So Beach Parking lot checking "things" out, you know what I mean. You certainly were't out on Sunset Cliffs which was inundated with more people than I have seen in my 73 years of living here. Patrolling with a helicopter is expensive and inappropriate, get off your lazy butts, get out of the donut shops, put on your flip flops and help the situation. Advise people to wear masks."
+
+More difficult to classify
+
+"covid office outbreak with no quarantine or tracing
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Zoning Violation
+Definition
+Description whose central theme is around any improper use of land or buildings in a municipality
+
+Clarifications
+Violations can includes occurrences like occupancy limit violations, rental of single family homes without permits, or illegal business activity at a residence without prior approval. This is not an exhaustive list.
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+"Citizen called to report there are upwards of 8 residents in this address; she believes them to be over the limit as stipulated by by the section 8 guidelines."
+
+More difficult to classify
+
+"I'm curious how this home in an R-7.5 zoning district (and not on a corner), in an otherwise single-family area, could be advertising a rental unit on a sign in its yard right of way as a "duplex". It does not seem to be allowable, unless it is on a corner."
+
+Commonly Confused With
+No known confusions at this time
+
+

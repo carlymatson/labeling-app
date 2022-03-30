@@ -1,0 +1,252 @@
+Jump to
+Confluence navigation
+Side navigation
+Page
+This page was in the background for too long and may not have fully loaded. Try to refresh the page
+
+Home
+
+Recent
+
+Spaces
+
+People
+
+Apps
+Templates
+
+Search
+
+9+
+
+
+
+Daupler 311 Ontology
+SPACE SHORTCUTS
+
+
+Daupler 311 Ontology
+Label Defintions
+
+
+
+
+
+
+Share
+
+D0: Hazmat
+Created by Heather Grebe
+Last updated: Oct 24, 20216 min read2 people viewed2 people viewed
+D1: Bodily Fluids
+Definition
+Description whose central theme is around the occurrence of human or animal bodily fluids in public places
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"This is human feces at the post office. I should not have to walk through feces and urine to check my mail."
+
+More difficult to classify
+
+"People pooping on sidewalk of Edison Elementary parking lot by alley north side of building"
+
+Commonly Confused With
+No known confusions at this time
+
+D1: Chemical Complaint
+Definition
+Description whose central theme is around harmful chemicals in locations where they do not belong but that are not leaking into the environment
+
+Clarifications
+Action of the substance is important for this label
+
+If the substance is in the environment and is leaking into a water source then the best label pair is most likely Defer|Illicit Discharge
+
+If the substance is in the environment and is NOT leaking into a water source then the best label pair is most likely Hazmat|Chemical Discharge 
+
+If the substance is NOT in the environment and is still in a container of some sort then the best label pair is most likely Hazmat|Chemical Complaint
+
+Caller intention is important for this label
+
+If the caller intention is to report that there have been chemicals dumped in some location then the best label pair is most likely one of the following: Defer|Illicit Discharge, Hazmat|Chemical Discharge, Hazmat|Chemical Complaint, Solidwaste|Chemical Discharge
+
+If the caller intention is to ask about the proper disposal of chemicals or substances so that they can comply with regulations then the best label pair is most likely Hazmat|Checmical Disposal
+
+Source is important for this label
+
+If the source of the leaking/dumping is a garbage collection truck then the best label pair is most likely Solidwaste|Checmical Discharge
+
+If the source of the leaking/dumping is NOT a garbage collection truck then the best label pair is most likley one of the following: Defer|Illicit Discharge, Hazmat|Chemical Discharge, Hazmat|Chemical Complaint
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"a large discarded gas tank on the ground here"
+
+Rationale for label:
+
+This description references a chemical substance (gas) that is still in a container of some sort but that has been left in a public place
+
+More difficult to classify
+
+"Citizen called to report that the resident at 329 N Oakley have 2 gallon gas cans sitting outside in the alley area which is a hazard and can cause a fire....Citizen wants this cleared before anything happens.....Citizen was not sure if anyone still lived in that house...."
+
+Rationale for label:
+
+This description references a chemical substance (gas) that is still in a container of some sort but that has been left in a public place
+
+Commonly Confused With
+Defer|Illicit Discharge
+
+Hazmat|Chemical Discharge
+
+Hazmat|Chemical Disposal
+
+Solid Waste|Chemical Discharge
+
+D1: Chemical Discharge
+Definition
+Description whose central theme is around chemicals being dumped or leaking in some location but WITHOUT mention of the chemicals making their way into the drainage system. This excludes cases of chemicals leaking from solid waste collection trucks
+
+Clarifications
+Action of the substance is important for this label
+
+If the substance is in the environment and is leaking into a water source then the best label pair is most likely Defer|Illicit Discharge
+
+If the substance is in the environment and NOT leaking into a water source then the best label pair is most likely Hazmat|Chemical Discharge 
+
+If the substance is NOT in the environment and is still in a container of some sort then the best label pair is most likely Hazmat|Chemical Complaint
+
+Caller intention is important for this label
+
+If the caller intention is to report that there have been chemicals dumped in some location then the best label pair is most likely one of the following: Defer|Illicit Discharge, Hazmat|Chemical Discharge, Hazmat|Chemical Complaint, Solidwaste|Chemical Discharge
+
+If the caller intention is to ask about the proper disposal of chemicals or substances so that they can comply with regulations then the best label pair is most likely Hazmat|Checmical Disposal
+
+Source is important for this label
+
+If the source of the leaking/dumping is a garbage collection truck then the best label pair is most likely Solidwaste|Checmical Discharge
+
+If the source of the leaking/dumping is NOT a garbage collection truck then the best label pair is most likley one of the following: Defer|Illicit Discharge, Hazmat|Chemical Discharge, Hazmat|Chemical ComplaintExamples 
+
+typos intended to mimic production data
+
+Easier to classify
+
+"Our neighbor has been dumping motor oil in our yard for years. We haven't repoted it in fear of reprizals, but he is poising our trees. To truly "catch him" for remediation costs for example, do we need an actual photo of him doing it? He is the only one doing mechanic work (LOTS!) on our street, and we live right next to him. I am afraid for our health."
+
+Reationale for label:
+
+This description references the dumping of oil into the environment but does not mention it making its way into the water systems
+
+More difficult to classify
+
+"HYDRAULIC LEAK ON THE STREET IN FRONT OF HOME NEED TO BE CLEANED UP"
+
+Rationale for label:
+
+This description references a leak of hydraulic fluid into the environment but does not metion the fluid making its way into the water systems
+
+Commonly Confused With
+Hazmat|Chemical Complaint
+
+Defer|Illicit Discharge
+
+Hazmat|Chemical Disposal
+
+Solid Waste|Chemical Discharge
+
+D1: Chemical Disposal
+Definition
+Description whose central theme is around citizens who want information on responsible disposal of their chemical waste
+
+Clarifications
+Action of the substance is important for this label
+
+If the substance is in the environment and is leaking into a water source then the best label pair is most likely Defer|Illicit Discharge
+
+If the substance is in the environment and NOT leaking into a water source then the best label pair is most likely Hazmat|Chemical Discharge 
+
+If the substance is NOT in the environment and is still in a container of some sort then the best label pair is most likely Hazmat|Chemical Complaint
+
+Caller intention is important for this label
+
+If the caller intention is to report that there have been chemicals dumped in some location then the best label pair is most likely one of the following: Defer|Illicit Discharge, Hazmat|Chemical Discharge, Hazmat|Chemical Complaint, Solidwaste|Chemical Discharge
+
+If the caller intention is to ask about the proper disposal of chemicals or substances so that they can comply with regulations then the best label pair is most likely Hazmat|Checmical Disposal
+
+Source is important for this label
+
+If the source of the leaking/dumping is a garbage collection truck then the best label pair is most likely Solidwaste|Checmical Discharge
+
+If the source of the leaking/dumping is NOT a garbage collection truck then the best label pair is most likley one of the following: Defer|Illicit Discharge, Hazmat|Chemical Discharge, Hazmat|Chemical Complaint
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"I have 15 gallons of paint thinner I want to take to a San Diego drop off facility on Convoy but the recording said use Get it Done app due to covid19"
+
+More difficult to classify
+
+"Caller wanted to get rid of paint cans."
+
+Commonly Confused With
+Hazmat|Chemical Complaint
+
+Hazmat|Chemical Discharge
+
+Defer|Illicit Discharge
+
+Solid Waste|Chemical Discharge
+
+D1: Odor Complaint
+Definition
+Description whose central theme is around citizens reporting smells that are indicative of issues that would require hazmat response. 
+
+Examples
+typos intended to mimic production data
+
+Easier to classify
+
+None as of yet
+
+More difficult to classify
+
+None as of yet
+
+Commonly Confused With
+Water|Odor Complaint
+
+Stormwater|Odor Complaint
+
+Sewer|Odor Complaint
+
+D1: Sharps
+Definition
+Description whose central theme is around the observance of medical waste in the form of hypodermic needles in public places
+
+Examples 
+typos intended to mimic production data
+
+Easier to classify
+
+"My son and I were walking to the park and he picked up a hippodermic needle. I am discusted!"
+
+More difficult to classify
+
+"HEALTH HAZARD: what looks like a bundle of medical waste, looks like hospital waste at intersection of Parkwood and Kilmer must of fallen off a waste disposal truck."
+
+Commonly Confused With
+No known confusions at this time
+
+LikeBe the first to like this
+No labels
+
+Write a comment…

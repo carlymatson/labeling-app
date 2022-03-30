@@ -1,0 +1,164 @@
+D0,D1,Definition
+Power,Meter Issue,"Description whose central theme is around usability, damage or displacement of a power (electric) meter"
+Power,Power Asset Issue,"Description whose central theme is around usability (with the exception of an outage), damage or displacement of a power asset other than a power meter, a power line or a transformer"
+Power,Service Complaint,"Description whose central theme is around work having been done on the power asset that was either unsatisfactory, incomplete, or caused other damage to the either the power asset or another asset"
+Power,Service Disconnected,Description whose central theme is around a lack of power service for reasons related to bill payment or lack thereof
+Power,Service Interruption,Description whose central theme is around a lack of the power service for any reason other than lack of bill payment
+Power,Service Request,Description whose central theme is around work a citizen is asking the city to perform that related to the power asset
+Power,Shutoff Request,Description whose central theme is around a citizen requesting temporary or permanent discontinuation of the power asset
+Power,Transformer Issue,Description whose central theme is around problems with power transformers
+Power,Turn On Request,Description whose central theme is around a request to reinstate the power asset service after a period when it has been off by request
+Power,Wires,Description whose central theme is around hazards posed by exposed or displaced wires
+Streets,Crash Barrier Complaint,"Description whose central theme is around damage to or complaints about guardrails, pylons, water barrels or other crash barriers"
+Streets,Crash Barrier Request,"Description whose central theme is around requests for repair or placement of guardrails, pylons, water barrels or other crash barriers"
+Streets,Delineators,"Description whose central theme is around objects whose purpose is to identify and/or block certain locations, paths or other objects"
+Streets,FYI,"Description whose central theme is the report of seemingly meaningless information that isn't actionable for the city in real-time, as it relates to streets"
+Streets,Metal Plate Complaint,Description whose central theme is around issues with metal plates that have been placed in the street to smooth surfaces or block holes
+Streets,Painting,Description whose central theme is related to painting that needs to be done for roads or for painting that was done but either was incorrectly done or not fully completed. 
+Streets,Pothole,Description whose central theme is around the loss of integrity of the streets system which has resulted in holes
+Streets,Question,Description whose central theme is around citizens requesting information about the streets asset
+Streets,Service Complaint,"Description whose central theme is around work that has been done on the streets asset that was either unsatisfactory, incomplete or caused other damage to either the streets asset or another asset"
+Streets,Service Request,Description whose central theme is around work a citizen is asking the city to perform that related to the streets asset
+Streets,Snow and Ice,Description whose central theme is around snow or ice conditions in the street system
+Streets,Street Complaint,"Description whose central theme is around reports of problems with the integrity or structure of the street system. While there is a specific Pothole label pair, anything that is referencing a large number of potholes that are weakening the overall integrity of the road fall into this label pair. "
+Streets,Street Sweeping,Description whose central theme is around street sweeping. Can include anything from complaints to requests
+Streets,Walkway Complaint,Description whose central theme is around issues with the curb and sidewalk system
+Sewer,Administration,"Description whose central theme is around requiring some sort of help or consultation with a particular individual. Other broad categorization of ""administrative help"" fall into this label pair as well. All should be related to the sewer assert"
+Sewer,Alarm,Description whose central theme is around an alarm of some sort going off.
+Sewer,Manhole Complaint,Description whose central theme is around any issues with manholes with the exception of damage that is identifiable as a Cave-In at the manhole site
+Sewer,Odor Complaint,Description whose central theme is around citizens reporting smells that are indicative of issues with the sewer asset
+Sewer,Pump Issue,Description whose central theme is around issues with the sewer pumps
+Sewer,Pump Station Issue,Description whose central theme is around problems with or failure of the sewer pump station
+Sewer,Question,Description whose central theme is around citizens requesting information about the sewer asset
+Sewer,Septic Tank Issue,Description whose central theme is around problems with a septic tanks system
+Sewer,Service Complaint,"Description whose central theme is around work having been done on the sewer asset that was either unsatisfactory, incomplete, or caused other damage to either the sewer asset or another asset"
+Sewer,Service Request,Description whose central theme is around work a citizen is asking the city to perform that related to the sewer asset
+Sewer,Sewer Blockage,Description whose central theme is around lack of drainage or overflowing that is specific to the sewer asset
+Code Enforcement,ADA Compliance,Description whose central theme is around violations to lack of compliance with the Americans with Disabilities Act (ADA)
+Code Enforcement,Abandoned Vehicle,Description whose central theme is related to vehicles (of any sort) that have been abandoned for a prolonged amount of time in a public location
+Code Enforcement,Animal Violation,"Description whose central theme is around violations of leash laws, noise ordinances, or welfare rights regarding animals"
+Code Enforcement,Construction Complaint,"Description whose central theme is around damage or disturbance to citizens caused by explicit construction and/or land development projects. Projects can be performed by industrial, personal, or municipality actors"
+Code Enforcement,Estate Complaint,"Description whose central theme is related to complaints about personal property conditions, typically that are violating building codes or property regulations."
+Code Enforcement,Health Complaint,Description whose central theme is centered around code violations that could result in physical or mental harm to the citizen or other citizens
+Code Enforcement,Illegal Dumping,Description whose central theme is related to dumping garbage waste where it does not belong
+Code Enforcement,Noise Violation,"Description whose central theme is related to either extremely loud, disruptive noise or noise that is occurring during regulated hours"
+Code Enforcement,Painting Violation,Description whose central theme is related to painting structures or areas that should not be painted
+Code Enforcement,Parking Violation,Description whose central theme is around vehicles in areas that are not designated for parking or vehicles that have been ticketed for parking in such areas with citizens calling to contest
+Code Enforcement,Permits,Description whose central theme is around either calling to request a permit to complete some form of construction or building project.Examples
+Code Enforcement,Question,"Description whose central theme is around citizens calling in to question anything about code enforcement in general, specifically in cases where the question is mimicking a report of a violation or the perception of a violation"
+Code Enforcement,ROW Violation,Description whose central theme is around blockage of or improper usage of the right-of-way
+Code Enforcement,Service Complaint,Description whose central theme is around complaints about code enforcement staff performing their duties
+Code Enforcement,Social Distancing Violation,Description whose central theme is related to violations of the social distancing mandate for Covid-19
+Code Enforcement,Zoning Violation,Description whose central theme is around any improper use of land or buildings in a municipality
+Fleet,Vehicle Maintenance,Description whose central theme is around city vehicles requiring maintenance
+Health,Social Distancing Violation,Description whose central theme is around companies or individuals not complying with COVID-19 measures
+Health,Vaccinations,Description whose central theme is around the topic of vaccination information
+Solid Waste,Chemical Discharge,Description whose central theme is around chemicals being dumped or leaking from solid waste collection trucks in some location but without mention of the chemicals making their way into the drainage system. 
+Solid Waste,Collection Request,Description whose central theme is a new request for citizen-generated garbage to be picked up. Requests that include complaints about a previously missed trash collection are excluded here
+Solid Waste,Container Complaint,Description whose central theme is around problems with or requests for trash or recycling receptacles
+Solid Waste,Missed Collection,Description whose central theme is around trash pickup not being completed
+Solid Waste,Question,Description whose central theme is around citizens requesting information about the waste collection asset
+Solid Waste,Request Canceled,Description whose central theme is around canceling a request for trash pickup
+Solid Waste,Service Complaint,"Description whose central theme is around waste collection or work having been done during waste collection that was either unsatisfactory, incomplete, or caused other damage to the containers or another asset"
+Hazmat,Bodily Fluids,Description whose central theme is around the occurrence of human or animal bodily fluids in public places
+Hazmat,Chemical Complaint,Description whose central theme is around harmful chemicals in locations where they do not belong but that are not leaking into the environment
+Hazmat,Chemical Discharge,Description whose central theme is around chemicals being dumped or leaking in some location but WITHOUT mention of the chemicals making their way into the drainage system. This excludes cases of chemicals leaking from solid waste collection trucks
+Hazmat,Chemical Disposal,Description whose central theme is around citizens who want information on responsible disposal of their chemical waste
+Hazmat,Odor Complaint,Description whose central theme is around citizens reporting smells that are indicative of issues that would require hazmat response. 
+Hazmat,Sharps,Description whose central theme is around the observance of medical waste in the form of hypodermic needles in public places
+Courts,Question,Description whose central theme is around questions about court proceedings
+Defer,Access Request,Description whose central theme is around either being locked out of a location or locked in
+Defer,Accident Cleanup,Description whose central theme is around clearing the wreckage resulting from a vehicle accident
+Defer,Administration,"Description whose central theme is around requiring some sort of help or consultation with a particular individual. Other broad categorization of ""administrative help"" fall into this label pair as well"
+Defer,Alarm,Description whose central theme is around an alarm of some sort going off. 
+Defer,Animal Complaint,Description whose central theme is around the nuisance posed by and/or well-being of stray animals (not necessarily animals types that are typically kept as pets)
+Defer,Banner Complaint,"Description whose central theme is around some sort of hanging decoration or banner, typically that has fallen in the road or is in violation of permissions."
+Defer,Barricade Request,Description whose central theme is around the requirement of barricade installment or removal
+Defer,Billing,"Description whose central theme is around incorrect billing for an asset, billing questions, or bill payment."
+Defer,Board Up,Description whose central theme is around requiring boarding up of a property or portion of a property due to either damage or dereliction
+Defer,Building Structural Integrity,Description whose central theme is around citizen concerns for the structural integrity of a building
+Defer,Container Complaint,Description whose central theme is around complaints about neglected garbage containers in public places or the need for placement of these containers
+Defer,Dead Animal,Description whose central theme is around a dead animal that needs to be picked up
+Defer,Debris Complaint,Description whose central theme is around reporting and/or requesting clean up for trash or miscellaneous debris in locations where it does not belong
+Defer,Downed Pole,Description whose central theme is around notification of poles that have/are falling but that do not have additional descriptors that characterize the identity of the pole type
+Defer,Downed Tree,Description whose central theme is around a tree that has fallen and is obstructing normal activity or posing a threat
+Defer,Easement Maintenance,Description whose central theme is around landscaping that needs to be completed on public property
+Defer,Emergency Barricade,Description whose central theme is around the need for a barricade immediately in order to prevent harm or damage
+Defer,Erosion,Description whose central theme is around the washing away or absence of topsoil or a similar material due to causes other than weather patterns
+Defer,FYI,Description whose central theme is the report of seemingly meaningless information that isn't actionable for the city in real time
+Defer,Fence Complaint,"Description whose central theme is around complaints about fence integrity, absence, or maintenance on property owned by the municipality"
+Defer,Flooding,Description whose central theme is around cases of large amounts of water gathering in a location that cannot be directly traced back to weather related causes or the Water asset at the location
+Defer,Graffiti,"Description whose central theme is around defacement of public property, typically with paint."
+Defer,Homeless Encampment,Description whose central theme is around the congregation of homeless individuals in a particular location for a prolonged period of time
+Defer,IT Issue,"Description whose central theme is around problems with technical systems, typically reported by city staff or citizens interacting with city websites"
+Defer,IT Request,Description whose central theme is around requesting some technical service or addition of a webpage or features to an existing webpage or app. Typically reported by city staff or citizens interacting with the city's website
+Defer,Illicit Discharge,Description whose central theme is around the leaking or dumping of substances into the water or drainage systems of a city
+Defer,Irrigation Issue,Description whose central theme is around irrigation systems such as sprinklers. Typically regarding the system leaking or causing damage to other assets.
+Defer,Labor Request,Description whose central theme is around requesting city employees to complete some task that is not related to the maintenance of city systems
+Defer,Landslide,Description whose central theme is around the movement of large amounts of substrate material in locations where it should not be
+Defer,Maintenance Request,Description whose central theme is around the upkeep of common city-systems or facilities. These are typically reported by city employees
+Defer,Odor Complaint,"Description whose central theme is around citizens reporting smells that cannot be assigned as Gas, Hazmat, Stormwater, Sewer or Water issues."
+Defer,Parking Meter Issue,Description whose central theme is around problems with municipality parking meters
+Defer,Pests,"Description whose central theme is related to insects and/or rodent infestations, reports, or complaints. These are typically reported in the context of city facilities"
+Defer,Police,Description whose central theme is related to situations that would most likely require police intervention
+Defer,Question,Description whose central theme is around miscellaneous questions that do not fit well into other asset question label pairs as they are written
+Defer,Request Canceled,Description whose central theme is related to the cancellation of a report that was previously given or a request that was previously made
+Defer,Retrieval Request,Description whose central theme is around a situation where an item was lost in a municipality system and the caller is in need of the city to assist in acquiring it 
+Defer,Scooters,Description whose central theme is around the public scooter system in a city
+Defer,Service Complaint,Description whose central theme is around work done by the city that was unsatisfactory in some manner and that is not explicitly related to another city asset
+Defer,Service Request,Description whose central theme is around work a citizen is asking the municipality to perform on municipality infrastructure that is not related to the maintenance of existing systems and that is not explicitly related to another municipality asset
+Defer,Streetlight Complaint,"Description whose central theme is around outages or issues with streetlights, other than the streetlight falling"
+Defer,System Test,Description whose explicit purpose is to test the system
+Defer,Tree Complaint,Description whose central theme is around issues with a tree other than if the tree has fallen or the tree is causing a hazard in conjunction with wires
+Defer,Tree Request,Description whose central theme is around requests for service related to trees other than removal of a fallen tree or service to a tree than is tangled in wires
+Defer,Tree in Wires,Description whose central theme is around reports of trees posing a potential threat due to interaction with wires or power lines
+Defer,Unusable Description,Description without any clear central theme that aligns with an actionable label pair
+Defer,Utility Locate,Description whose central theme is around requesting a service to help find the utility locations in an area in order to perform construction or maintenance to an asset
+Defer,Wires,Description whose central theme is around hazards posed by exposed or displaced wires
+Gas,Gas Asset Issue,"Description whose central theme is around problems with a specific gas asset other than a leak, a service interruption, or a request to turn the gas off"
+Gas,Gas Leak,Description whose central theme is around leaking of gas
+Gas,Question,Description whose central theme is around citizens requesting information about the gas asset
+Gas,Service Complaint,"Description whose central theme is around work having been done on the gas asset that was either unsatisfactory, incomplete, or caused other damage to the either the gas asset or another asset"
+Gas,Service Disconnected,Description whose central theme is around a lack of gas service for reasons related to bill payment or lack thereof
+Gas,Service Interruption,Description whose central theme is around a gas outage where the citizen does not have service for any reason other than a billing issue
+Gas,Shutoff Request,Description whose central theme is around a citizen requesting temporary or permanent discontinuation of the gas asset
+Gas,Turn On Request,Description whose central theme is around a request to reinstate the gas asset service after a period when it has been off by request
+Water,Fire Hydrant Issue,Description whose central theme is around water leaking from a fire hydrant
+Water,Frozen Meter,Description whose central theme is around issues with frozen meters
+Water,Frozen Pipes,Description whose central theme is around issues with frozen pipes
+Water,High Pressure,Description whose central theme is around the pressure in the water system being above typical levels
+Water,High Usage,Description whose central theme is around instances where a citizen's water usage is far above normal levels
+Water,Low Pressure,Description whose central theme is around the pressure in the water system being below typical levels
+Water,Meter Issue,Description whose central theme is around water asset issues occurring at the water meter
+Water,Odor Complaint,Description whose central theme is around citizens reporting smells that are indicative of issues with the water asset or at the location of a water asset
+Water,Question,Description whose central theme is around citizens requesting information about the water asset
+Water,Service Complaint,"Description whose central theme is around work having been done on the water asset that was either unsatisfactory, incomplete, or caused other damage to either the water asset or another asset"
+Water,Service Disconnected,Description whose central theme is around a lack of water service for reasons related to bill payment or lack thereof
+Water,Service Interruption,Description whose central theme is around a lack of the water service for any reason other than lack of bill payment
+Water,Service Request,Description whose central theme is around work a citizen is asking the city to perform that related to the water asset
+Water,Shutoff Request,Description whose central theme is around a citizen requesting temporary or permanent discontinuation of the water asset
+Water,Turn On Request,Description whose central theme is around a request to reinstate the water asset service after a period when it has been off by request
+Water,Water Asset Issue,"Description whose central theme is around usability (with the exception of an outage) of, damage to or displacement of a water asset other than a water meter"
+Water,Water Leaking,"Description whose central theme is around leaking of the water asset, typically inside the home or business"
+Water,Water Quality,"Description whose central theme is around the quality of water including reports of odor, color, taste and sediment content"
+Water,Water Waste,Description whose central theme is around violation of water shortage regulations
+Traffic,Downed Streetlight,Description whose central theme is around streetlights that have fallen down. Object must be identifiable as a streetlight to fall into this category; explicit identification or strong contextual queues are preferred
+Traffic,Question,Description whose central theme is around citizens requesting information about traffic
+Traffic,Service Complaint,"Description whose central theme is around work related to traffic that was either unsatisfactory, incomplete, or caused other damage to the asset or another asset"
+Traffic,Sign Complaint,Description whose central theme is around problems with some sort of signage 
+Traffic,Sign Request,Description whose central theme is around requests for some sort of signage that do not require a traffic study to determine the necessity of the sign
+Traffic,Signal Complaint,Description whose central theme is around issues with traffic lights and other traffic signaling objects such as pedestrian crosswalk lights
+Traffic,Streetlight Request,Description whose central theme is around the request for lighting in a new location
+Traffic,Traffic Study,Description whose central theme is around observations about the current environment and flow of traffic in a location. Typically these are cases that will require the city to come out and make an observation of the environment before taking action to resolve the issue. 
+Stormwater,Ditch Complaint,Description whose central theme is around citizens calling in with complaints about ditches. 
+Stormwater,Drain Blockage,Description whose central theme is around a lack of proper drainage in a public place that is related to the stormwater systems
+Stormwater,Drain Complaint,Description whose central theme is around problems with drains in a public place that do not include immediate blockage
+Stormwater,Drainage Violation,Description whose central theme is around water draining onto the citizen's property or another referenced property due to the actions of another party or improper infrastructure
+Stormwater,Erosion,Description whose central theme is around the washing away or absence of topsoil or a similar material due to weather patterns and the stormwater systems
+Stormwater,Flooding,Description whose central theme is around cases of large amounts of water gathering in a location that can be directly traced back to weather-related causes
+Stormwater,Manhole Complaint,Description whose central theme is around issues with manholes associated with the stormwater systems. Excludes sewer related manholes
+Stormwater,Odor Complaint,Description whose central theme is around citizens reporting smells that are indicative of issues with the stormwater asset or at the location of a stormwater asset
+Stormwater,Question,Description whose central theme is around citizens requesting information about the stormwater asset
+Stormwater,Service Complaint,"Description whose central theme is around work having been done on the stormwater asset that was either unsatisfactory, incomplete, or caused other damage to either the stormwater asset or another asset"
+Stormwater,Service Request,Description whose central theme is around work a citizen is asking the city to perform that related to the stormwater asset
+Stormwater,Sump Pump Issue,Description whose central theme is around issues with sump pumps themselves
