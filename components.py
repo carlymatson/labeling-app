@@ -1,4 +1,6 @@
 from datetime import date
+from pathlib import Path
+import random
 
 import streamlit as st
 
@@ -13,7 +15,6 @@ def session_info(repo, goals: str = ""):
     st.header(f"Labeling Session #{session_num}: {session_title}")
     today = date.today()
     st.subheader(today.strftime("%B %d, %Y"))
-    session_tag = "Session2"
     if goals != "":
         with st.expander("Session Goals"):
             st.write("Goals...")
@@ -29,3 +30,13 @@ def vocab_dictionary(vocab):
     df_display = filtered_df.rename(columns={"Definition": f"Definition: {prefix}..."})
     df_display = df_display.replace(prefix + " ", "...", regex=True)
     st.table(df_display)
+
+
+def random_gif(display=True):
+    path = Path("celebration_gifs.txt")
+    with path.open("r") as f:
+        gif_urls = f.readlines()
+    random_url = random.choice(gif_urls)
+    if display:
+        st.image(random_url)
+    return random_url

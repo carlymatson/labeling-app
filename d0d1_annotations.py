@@ -1,4 +1,6 @@
 from typing import Callable, Iterable, Optional, Dict
+import pyperclip
+import re
 
 import streamlit as st
 
@@ -10,6 +12,18 @@ TAGS = [
     "More Info Needed",
     "Needs Review",
 ]
+
+
+def show_request(id, description):
+    st.write(f"Request ID: {id}")
+    col1, col2 = st.columns((10, 1))
+    text_to_display = re.sub("\n", "", description)
+    with col1:
+        st.subheader(f'Description: "{text_to_display}"')
+    with col2:
+        copy_it = st.button("📋", help="Copy to Clipboard")
+        if copy_it:
+            pyperclip.copy(description)
 
 
 class D0D1Annotations:
@@ -43,7 +57,10 @@ class D0D1Annotations:
         )
         return dict(D0=d0, D1=d1)
 
-    def annotation_inputs(self, item_id: str = "", annotations=None):
+    def annotation_inputs(
+        self, item_id: str = "", annotations=None, description: str = "Description"
+    ):
+        show_request(item_id, description)
         suffix = f"_{item_id}"
         if str(item_id) in annotations:
             defaults = annotations[str(item_id)]
@@ -64,4 +81,5 @@ class D0D1Annotations:
             notes = st.text_area(
                 "Notes", key="input_notes" + suffix, value=defaults.get("notes", "")
             )
-        return dict(labels=labels, tags=tags_selected, notes=notes)
+        item_annotations = dict(labels=labels, tags=tags_selected, notes=notes)
+        return item_annotations

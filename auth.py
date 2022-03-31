@@ -24,4 +24,3 @@ def authentication(validation_func: Callable) -> Tuple[bool, str]:
     username = st.text_input("Enter your email:")
     password = st.text_input("Enter a password:")  # , type="password")
     st.button("Sign In", on_click=validate, args=(validation_func, username, password))
-    st.stop()

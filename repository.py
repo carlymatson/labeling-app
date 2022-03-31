@@ -47,8 +47,5 @@ class Repository:
     def get_batch(self, batch_size=10, session_tag: str = "", labeler_id: str = ""):
         return [random_request(i) for i in range(batch_size)]
 
-    def get_progress(self, session_tag):
-        return 77
-
-    def get_stats(self, labeler):
-        return
+    def propose_batch(self):
+        pass

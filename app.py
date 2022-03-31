@@ -1,23 +1,10 @@
 import pandas as pd
 import streamlit as st
-import pyperclip
 
-from info import *
-import utils
+# from components import *
+import components
 
 from batch import Batch
-
-
-def show_request(id, description):
-    st.write(f"Request ID: {id}")
-    col1, col2 = st.columns((10, 1))
-    text_to_display = re.sub("\n", "", description)
-    with col1:
-        st.subheader(f'Description: "{text_to_display}"')
-    with col2:
-        copy_it = st.button("📋", help="Copy to Clipboard")
-        if copy_it:
-            pyperclip.copy(description)
 
 
 class LabelingApp:
@@ -25,7 +12,6 @@ class LabelingApp:
         self,
         repo,
         labeler_id,
-        vocab,
         session_tag="",
         batch_size=10,
         annotation_inputs=None,
@@ -34,7 +20,6 @@ class LabelingApp:
         self.session_tag = session_tag
         self.batch_size = batch_size
         self.labeler_id = labeler_id
-        self.vocab = vocab
         # Info on current batch
         self.batch = None
         self.annotations = dict()
@@ -53,7 +38,7 @@ class LabelingApp:
     def batch_pulling_screen(self):
         if self.batch_submitted:
             st.header("Batch submitted! You rule.")
-            utils.random_gif()
+            components.random_gif()
             st.write("Ready for more?")
         st.button(
             "Pull a Batch to Label",
@@ -66,12 +51,10 @@ class LabelingApp:
             st.write("There is nothing to label.")
             st.stop()
         self.batch.show_progress()
-        # Display current request
+        # Display inputs for current request
         request_id, description = self.batch.get_current()
-        show_request(request_id, description)
-        # Input widgets
         item_annotations = self.annotation_inputs(
-            item_id=request_id, annotations=self.annotations
+            item_id=request_id, annotations=self.annotations, description=description
         )
         self.annotations[str(request_id)] = item_annotations
         self.batch.navigation()
@@ -85,7 +68,6 @@ class LabelingApp:
         st.table(df)
         submit = st.button("Submit", on_click=self.submit_and_clear)
         if submit:
-            utils.random_gif()
             self.batch_pulling_screen()
 
     def submit_and_clear(self):
@@ -103,8 +85,8 @@ class LabelingApp:
 
     def run(self):
         with st.sidebar:
-            profile_info(self.labeler_id)
-            session_info(self.repo)
+            components.profile_info(self.labeler_id)
+            components.session_info(self.repo)
         if self.batch is None:
             self.batch_pulling_screen()  # Stops after this screen plays.
         self.annotate_batch()
