@@ -36,7 +36,7 @@ def main():
         )
         st.session_state["app"] = app
     app.run()
-    with st.expander("Label Dictionary"):  # Or should this be after the app?
+    with st.expander("Label Dictionary"):
         vocab_dictionary(vocab)
 
 
