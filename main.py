@@ -20,6 +20,18 @@ def unset_app():
     st.session_state["app"] = None
 
 
+def group_info():
+    with st.expander("Session Goals"):
+        st.write(
+            "Our goal for this session is to label samples from groups on which performance declined in our most recent model."
+        )
+        st.write("Group 5: Utility outages & interruptions")
+        st.write("Group 9: Wires, meters, and assett issues")
+        st.write("Group 15: Traffic signals & lights")
+        st.write("Group 16: Street Quality")
+        st.write("Group 19: Hazmat issues")
+
+
 def main():
 
     initialize_state(validated_user=None, batch=None, app=None)
@@ -35,6 +47,7 @@ def main():
         session_tag = st.selectbox(
             "Session Tag", options=session_tags, on_change=unset_app
         )
+        group_info()
     vocab = pd.read_csv("vocabulary_D0D1.csv")
     d0d1_inputs = D0D1Annotations(vocab)
     # Rather than passing the vocabulary, pass the annotation screen.

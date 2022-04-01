@@ -6,11 +6,11 @@ import streamlit as st
 
 TAGS = [
     "Confusing",
-    "Weird",
-    "Funny",
+    "Unusual",
     "Multiple Issues",
     "More Info Needed",
     "Needs Review",
+    "New Label Needed",
 ]
 
 
