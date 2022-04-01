@@ -1,6 +1,7 @@
 from datetime import date
 from pathlib import Path
 import random
+from typing import Optional
 
 import streamlit as st
 
@@ -9,10 +10,19 @@ def profile_info(user):
     st.write(f"Username: {user}")
 
 
-def session_info(repo, goals: str = ""):
-    session_num = 2
-    session_title = "Wifi, Downed Poles, and Debris, Oh My!"
-    st.header(f"Labeling Session #{session_num}: {session_title}")
+def session_info(
+    repo,
+    session_num: Optional[int] = None,
+    goals: str = "",
+    title: Optional[str] = None,
+):
+    session_num = 1
+    header = "Labeling Session"
+    if session_num is not None:
+        header += f" #{session_num}"
+    if title is not None:
+        header += f": {title}"
+    st.header(header)
     today = date.today()
     st.subheader(today.strftime("%B %d, %Y"))
     if goals != "":

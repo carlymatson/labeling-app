@@ -21,9 +21,10 @@ def show_request(id, description):
     with col1:
         st.subheader(f'Description: "{text_to_display}"')
     with col2:
-        copy_it = st.button("📋", help="Copy to Clipboard")
-        if copy_it:
-            pyperclip.copy(description)
+        # copy_it = st.button("📋", help="Copy to Clipboard")
+        # if copy_it:
+        # pyperclip.copy(description)
+        pass
 
 
 class D0D1Annotations:

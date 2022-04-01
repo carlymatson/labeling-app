@@ -84,9 +84,9 @@ class LabelingApp:
         self.batch = None
 
     def run(self):
-        with st.sidebar:
-            components.profile_info(self.labeler_id)
-            components.session_info(self.repo)
+        # with st.sidebar:
+        # components.profile_info(self.labeler_id)
+        # components.session_info(self.repo)
         if self.batch is None:
             self.batch_pulling_screen()  # Stops after this screen plays.
         self.annotate_batch()
