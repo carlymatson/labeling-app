@@ -51,7 +51,7 @@ def main():
         st.session_state["app"] = app
     app.run()
     with st.expander("Label Dictionary"):
-        vocab_dictionary(vocab)
+        components.vocab_dictionary(vocab)
 
 
 if __name__ == "__main__":
