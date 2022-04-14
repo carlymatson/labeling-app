@@ -1,13 +1,16 @@
+from typing import Dict
 import uuid
 
 import streamlit as st
 
 
 class Batch:  # Can add error-handling in this class
-    def __init__(self, items):
+    def __init__(self, items, annotations: Dict = None, proposals: Dict = None):
         self.items = items
         self.current_index = 0
         self.id = uuid.uuid4()
+        self.annotations = annotations
+        self.proposals = proposals
 
     def __len__(self):
         return len(self.items)
