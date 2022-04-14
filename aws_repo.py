@@ -7,6 +7,8 @@ import os
 import boto3
 import streamlit as st
 
+from batch import Batch
+
 
 def write_credentials_if_needed():
     if "credentials_file_written" in st.session_state:
@@ -66,24 +68,41 @@ class AWSRepository:
         batch_size: int = 20,
         session_tag: Optional[str] = None,
         labeler_id: str = "",
+        for_review: bool = False,
     ):
-        batch = self.invoke(
-            "PullBatchForLabeling",
+        function_name = "PullBatchForReview" if for_review else "PullBatchForLabeling"
+        response = self.invoke(
+            function_name,
             params=dict(
                 session_tag=session_tag, labeler_id=labeler_id, batch_size=batch_size
             ),
             invocation_type="RequestResponse",
         )
+        if for_review:
+            items = response.get("items", [])
+            proposals = response.get("proposals", [])
+            batch = Batch(items=items, proposals=proposals)
+        else:
+            batch = Batch(items=response)
         return batch
 
-    def propose_batch(self, labeler_id: str, proposals, session_tag: str = ""):
-        for label in proposals:
-            hashtags = [f"#{tag}" for tag in label["tags"]]
-            tag_string = " ".join(hashtags)
-            if len(tag_string) > 0:
-                label["notes"] = label["notes"] + " " + tag_string
+    def propose_batch(
+        self,
+        labeler_id: str,
+        proposals,
+        session_tag: str = "",
+        use_as_training: bool = False,
+    ):
+        if not use_as_training:
+            for label in proposals:
+                hashtags = [f"#{tag}" for tag in label["tags"]]
+                tag_string = " ".join(hashtags)
+                if len(tag_string) > 0:
+                    label["notes"] = label["notes"] + " " + tag_string
+
+        function_name = "AssignLabel" if use_as_training else "ProposeLabel"
         self.invoke(
-            "ProposeLabel",
+            function_name,
             params=dict(
                 labeler_id=labeler_id, session_tag=session_tag, labeled_data=proposals
             ),

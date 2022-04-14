@@ -25,3 +25,10 @@ def authentication(validation_func: Callable) -> Tuple[bool, str]:
     # password = st.text_input("Enter a password:")  # , type="password")
     password = "asdf"
     st.button("Sign In", on_click=validate, args=(validation_func, username, password))
+
+
+def is_reviewer(user):
+    with open("static/reviewers.txt", "r") as f:
+        reviewers = [s.strip() for s in f.readlines()]
+    is_in_reviewer_list = user in reviewers
+    return is_in_reviewer_list

@@ -2,6 +2,7 @@ from typing import Callable, Iterable, Optional, Dict
 import pyperclip
 import re
 
+import pandas as pd
 import streamlit as st
 
 TAGS = [
@@ -59,14 +60,18 @@ class D0D1Annotations:
         return dict(D0=d0, D1=d1)
 
     def annotation_inputs(
-        self, item_id: str = "", annotations=None, description: str = "Description"
+        self,
+        item_id: str = "",
+        description: str = "Description",
+        defaults=None,
+        proposals=None,
     ):
         show_request(item_id, description)
+        if proposals is not None:
+            item_proposals = proposals.get(str(item_id), [])
+            df = pd.DataFrame.from_records(data=item_proposals, index="labeler_id")
+            st.table(df)
         suffix = f"_{item_id}"
-        if str(item_id) in annotations:
-            defaults = annotations[str(item_id)]
-        else:
-            defaults = dict(labels=dict())
         col1, col2 = st.columns(2)
         with col1:
             labels = self.get_d0_d1_inputs(

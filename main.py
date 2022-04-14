@@ -21,15 +21,15 @@ def unset_app():
 
 
 def group_info():
+    info = """Our goal for this session is to label samples from groups on which performance declined in our most recent model.
+Group 5: Utility outages & interruptions
+Group 9: Wires, meters, and assett issues
+Group 15: Traffic signals & lights
+Group 16: Street Quality
+Group 19: Hazmat issues"""
     with st.expander("Session Goals"):
-        st.write(
-            "Our goal for this session is to label samples from groups on which performance declined in our most recent model."
-        )
-        st.write("Group 5: Utility outages & interruptions")
-        st.write("Group 9: Wires, meters, and assett issues")
-        st.write("Group 15: Traffic signals & lights")
-        st.write("Group 16: Street Quality")
-        st.write("Group 19: Hazmat issues")
+        for line in info.split("\n"):
+            st.write(line.strip())
 
 
 def main():
@@ -48,11 +48,12 @@ def main():
             "Session Tag", options=session_tags, on_change=unset_app
         )
         group_info()
-    vocab = pd.read_csv("vocabulary_D0D1.csv")
+    vocab = pd.read_csv("static/vocabulary_D0D1.csv")
     d0d1_inputs = D0D1Annotations(vocab)
     # Rather than passing the vocabulary, pass the annotation screen.
     app = st.session_state["app"]
     if st.session_state["app"] is None:
+        user_is_reviewer = auth.is_reviewer(validated_user)
         repo = AWSRepository()
         app = LabelingApp(
             repo,
@@ -60,6 +61,7 @@ def main():
             session_tag=session_tag,
             batch_size=10,
             annotation_inputs=d0d1_inputs.annotation_inputs,
+            labeler_is_reviewer=user_is_reviewer,
         )
         st.session_state["app"] = app
     app.run()
