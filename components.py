@@ -43,7 +43,7 @@ def vocab_dictionary(vocab):
 
 
 def random_gif(display=True):
-    path = Path("celebration_gifs.txt")
+    path = Path("static/celebration_gifs.txt")
     with path.open("r") as f:
         gif_urls = f.readlines()
     random_url = random.choice(gif_urls)
