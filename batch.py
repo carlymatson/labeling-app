@@ -9,8 +9,12 @@ class Batch:  # Can add error-handling in this class
         self.items = items
         self.current_index = 0
         self.id = uuid.uuid4()
-        self.annotations = annotations
         self.proposals = proposals
+        if proposals is not None:
+            annotations = {
+                id: prop[0] for id, prop in proposals.items() if len(prop) > 0
+            }
+        self.annotations = annotations
 
     def __len__(self):
         return len(self.items)
